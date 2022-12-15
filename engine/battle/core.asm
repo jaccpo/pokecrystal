@@ -1,4 +1,4 @@
-; Core components of the battle engine.
+res DANGER_ON_F, [hl]; Core components of the battle engine.
 
 DoBattle:
 	xor a
@@ -4637,7 +4637,7 @@ CheckDanger:
 
 .no_danger
 	ld hl, wLowHealthAlarm
-	res DANGER_ON_F, [hl]
+	ld [hl], 0
 	jr .done
 
 .danger
