@@ -1,4 +1,4 @@
-EvolvePokemon:
+call LearnLevelMovesEvolvePokemon:
 	ld hl, wEvolvableFlags
 	xor a
 	ld [hl], a
@@ -296,6 +296,7 @@ EvolveAfterBattle_MasterLoop:
 	ld [wTempSpecies], a
 	xor a
 	ld [wMonType], a
+	call LearnEvolutionMove
 	call LearnLevelMoves
 	ld a, [wTempSpecies]
 	dec a
