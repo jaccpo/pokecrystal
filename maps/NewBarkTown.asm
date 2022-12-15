@@ -216,9 +216,9 @@ Text_ItsDangerousToGoAlone:
 	done
 
 Text_YourMonIsAdorable:
-	text "Oh! Your #MON"
-	line "is adorable!"
-	cont "I wish I had one!"
+	text "Dunsparce is back!"
+	line "Now, Eviolite"
+	cont "makes it thicc af!"
 	done
 
 Text_TellMomIfLeaving:

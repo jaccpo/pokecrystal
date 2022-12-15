@@ -1,0 +1,4 @@
+EvolutionMoves::
+	table_width 1, EvolutionMoves
+	db NO_MOVE      ; BULBASAUR
+assert_table_length NUM_POKEMON
