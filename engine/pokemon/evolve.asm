@@ -1,4 +1,4 @@
-call LearnLevelMovesEvolvePokemon:
+EvolvePokemon:
 	ld hl, wEvolvableFlags
 	xor a
 	ld [hl], a

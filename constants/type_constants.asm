@@ -4,9 +4,6 @@
 ; - PokedexTypeSearchStrings (see data/types/search_strings.asm)
 ; - TypeMatchups (see data/types/type_matchups.asm)
 ; - TypeBoostItems (see data/types/type_boost_items.asm)
-	const_def
-
-DEF PHYSICAL EQU const_value
 	const NORMAL
 	const FIGHTING
 	const FLYING
