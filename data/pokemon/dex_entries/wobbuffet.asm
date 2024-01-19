@@ -1,10 +1,10 @@
-	db "PATIENT@" ; species name
-	dw 403, 630 ; height, weight
+	db "GARGOYLE@" ; species name
+	dw 501, 2855 ; height, weight
 
-	db   "In order to con-"
-	next "ceal its black"
-	next "tail, it lives in"
+	db   "It ambushes lost"
+	next "travellers in"
+	next "caves. It will re-"
 
-	page "a dark cave and"
-	next "only moves about"
-	next "at night.@"
+	page "main still as a"
+	next "statue until it"
+	next "decides to strike.@"

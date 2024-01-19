@@ -2,43 +2,43 @@ MoveNames::
 	list_start MoveNames
 	li "POUND"
 	li "KARATE CHOP"
-	li "DOUBLESLAP"
-	li "COMET PUNCH"
-	li "MEGA PUNCH"
-	li "PAY DAY"
+	li "BULK UP" ; was Doubleslap
+	li "BOUNCYBUBBLE" ; was Comet Punch
+	li "HURRICANE" ; was Mega Punch
+	li "BOOMBURST" ; was Pay Day
 	li "FIRE PUNCH"
 	li "ICE PUNCH"
 	li "THUNDERPUNCH"
 	li "SCRATCH"
-	li "VICEGRIP"
-	li "GUILLOTINE"
-	li "RAZOR WIND"
+	li "VISE GRIP" ; fixed spelling
+	li "AIR CUTTER" ; was Guillotine
+	li "AIR SLASH" ; was Razor Wind
 	li "SWORDS DANCE"
 	li "CUT"
 	li "GUST"
 	li "WING ATTACK"
-	li "WHIRLWIND"
+	li "ROOST" ; was WHIRLWIND
 	li "FLY"
-	li "BIND"
-	li "SLAM"
+	li "SEED BOMB" ; was Bind
+	li "FLARE BLITZ" ; was Slam
 	li "VINE WHIP"
 	li "STOMP"
 	li "DOUBLE KICK"
 	li "MEGA KICK"
 	li "JUMP KICK"
-	li "ROLLING KICK"
-	li "SAND-ATTACK"
+	li "SUCKER PUNCH" ; was Rolling Kick
+	li "HYPER VOICE" ; was Sand Attack
 	li "HEADBUTT"
 	li "HORN ATTACK"
 	li "FURY ATTACK"
-	li "HORN DRILL"
+	li "DRAIN PUNCH"
 	li "TACKLE"
 	li "BODY SLAM"
 	li "WRAP"
-	li "TAKE DOWN"
-	li "THRASH"
+	li "STRUGGLE BUG" ; was Take Down
+	li "SNARL" ; was Thrash 
 	li "DOUBLE-EDGE"
-	li "TAIL WHIP"
+	li "PLAY ROUGH" ; was Tail Whip
 	li "POISON STING"
 	li "TWINEEDLE"
 	li "PIN MISSILE"
@@ -46,14 +46,14 @@ MoveNames::
 	li "BITE"
 	li "GROWL"
 	li "ROAR"
-	li "SING"
-	li "SUPERSONIC"
-	li "SONICBOOM"
-	li "DISABLE"
+	li "IRON DEFENSE" ; was Sing
+	li "BUG BUZZ"     ; was Supersonic
+	li "ZEN HEADBUTT" ; was Sonicboom
+	li "QUIVER DANCE" ; was Disable
 	li "ACID"
 	li "EMBER"
 	li "FLAMETHROWER"
-	li "MIST"
+	li "CALM MIND"
 	li "WATER GUN"
 	li "HYDRO PUMP"
 	li "SURF"
@@ -67,7 +67,7 @@ MoveNames::
 	li "DRILL PECK"
 	li "SUBMISSION"
 	li "LOW KICK"
-	li "COUNTER"
+	li "FLAME BURST" ; was Counter
 	li "SEISMIC TOSS"
 	li "STRENGTH"
 	li "ABSORB"
@@ -79,7 +79,7 @@ MoveNames::
 	li "POISONPOWDER"
 	li "STUN SPORE"
 	li "SLEEP POWDER"
-	li "PETAL DANCE"
+	li "ENERGY BALL" ; was Petal Dance
 	li "STRING SHOT"
 	li "DRAGON RAGE"
 	li "FIRE SPIN"
@@ -89,7 +89,7 @@ MoveNames::
 	li "THUNDER"
 	li "ROCK THROW"
 	li "EARTHQUAKE"
-	li "FISSURE"
+	li "IRON HEAD"
 	li "DIG"
 	li "TOXIC"
 	li "CONFUSION"
@@ -98,58 +98,58 @@ MoveNames::
 	li "MEDITATE"
 	li "AGILITY"
 	li "QUICK ATTACK"
-	li "RAGE"
+	li "X-SCISSOR" ; was Rage
 	li "TELEPORT"
 	li "NIGHT SHADE"
-	li "MIMIC"
+	li "MOONBLAST" ; was Mimic
 	li "SCREECH"
-	li "DOUBLE TEAM"
+	li "BRAVE BIRD" ; was Double Team
 	li "RECOVER"
 	li "HARDEN"
-	li "MINIMIZE"
-	li "SMOKESCREEN"
+	li "NOTUSED" ; Minimize - don't replace
+	li "TRAILBLAZE" ; was Smokescreen
 	li "CONFUSE RAY"
-	li "WITHDRAW"
+	li "AQUA JET" ; was Withdraw
 	li "DEFENSE CURL"
-	li "BARRIER"
+	li "SQUALL" ; was Barrier
 	li "LIGHT SCREEN"
 	li "HAZE"
 	li "REFLECT"
 	li "FOCUS ENERGY"
-	li "BIDE"
+	li "FLASH CANNON" ; was Bide
 	li "METRONOME"
 	li "MIRROR MOVE"
-	li "SELFDESTRUCT"
+	li "ICE SHARD" ; was Selfdestruct
 	li "EGG BOMB"
 	li "LICK"
 	li "SMOG"
 	li "SLUDGE"
-	li "BONE CLUB"
+	li "MUD SHOT" ; was Bone Club
 	li "FIRE BLAST"
 	li "WATERFALL"
 	li "CLAMP"
 	li "SWIFT"
 	li "SKULL BASH"
 	li "SPIKE CANNON"
-	li "CONSTRICT"
+	li "SCORCH SANDS"
 	li "AMNESIA"
-	li "KINESIS"
-	li "SOFTBOILED"
-	li "HI JUMP KICK"
+	li "AURA SPHERE" ; was Kinesis
+	li "SOFTBOILED" ; Don't replace - has overworld effect
+	li "PWR-UP PUNCH" ; Was Jump Kick
 	li "GLARE"
 	li "DREAM EATER"
 	li "POISON GAS"
-	li "BARRAGE"
+	li "GUNK SHOT" ; was Barrage
 	li "LEECH LIFE"
 	li "LOVELY KISS"
-	li "SKY ATTACK"
+	li "AERIAL ACE" ; was Sky Attack
 	li "TRANSFORM"
-	li "BUBBLE"
-	li "DIZZY PUNCH"
+	li "POISON JAB" ; was Bubble
+	li "VACUUM WAVE" ; was Dizzy Punch
 	li "SPORE"
 	li "FLASH"
 	li "PSYWAVE"
-	li "SPLASH"
+	li "DRAGON DANCE"
 	li "ACID ARMOR"
 	li "CRABHAMMER"
 	li "EXPLOSION"
@@ -157,72 +157,72 @@ MoveNames::
 	li "BONEMERANG"
 	li "REST"
 	li "ROCK SLIDE"
-	li "HYPER FANG"
+	li "POISON FANG" ; was Hyper Fang
 	li "SHARPEN"
-	li "CONVERSION"
+	li "BULLET PUNCH" ; was Conversion
 	li "TRI ATTACK"
 	li "SUPER FANG"
 	li "SLASH"
 	li "SUBSTITUTE"
 	li "STRUGGLE"
 	li "SKETCH"
-	li "TRIPLE KICK"
+	li "SHOCK WAVE" ; was Triple Kick
 	li "THIEF"
-	li "SPIDER WEB"
-	li "MIND READER"
-	li "NIGHTMARE"
+	li "NASTY PLOT" ; was Spider Web
+	li "ICICLE CRASH" ; was Mind Reader
+	li "POWER GEM" ; was Nightmare
 	li "FLAME WHEEL"
 	li "SNORE"
 	li "CURSE"
 	li "FLAIL"
-	li "CONVERSION2"
+	li "DISCHARGE" ; was Conversion2
 	li "AEROBLAST"
-	li "COTTON SPORE"
+	li "CHARGE BEAM" ; was Cotton Spore
 	li "REVERSAL"
-	li "SPITE"
+	li "GULP UP" ; was Spite
 	li "POWDER SNOW"
 	li "PROTECT"
 	li "MACH PUNCH"
 	li "SCARY FACE"
-	li "FAINT ATTACK"
-	li "SWEET KISS"
+	li "FEINT ATTACK" ; *** fixed spelling
+	li "DRAIN KISS" ; was Sweet Kiss
 	li "BELLY DRUM"
 	li "SLUDGE BOMB"
 	li "MUD-SLAP"
 	li "OCTAZOOKA"
 	li "SPIKES"
-	li "ZAP CANNON"
-	li "FORESIGHT"
+	li "WILD CHARGE" ; was Zap Cannon
+	li "STONE EDGE"  ; was Foresight
 	li "DESTINY BOND"
 	li "PERISH SONG"
 	li "ICY WIND"
-	li "DETECT"
-	li "BONE RUSH"
-	li "LOCK-ON"
+	li "SHADOW CLAW" ; was Detect
+	li "EARTH POWER" ; was Bone Rush
+	li "DRAGON CLAW"  ; was Lock-On
 	li "OUTRAGE"
 	li "SANDSTORM"
 	li "GIGA DRAIN"
 	li "ENDURE"
 	li "CHARM"
 	li "ROLLOUT"
-	li "FALSE SWIPE"
-	li "SWAGGER"
+	li "COIL" ; was False Swipe
+	li "HORN LEECH" ; was Swagger
 	li "MILK DRINK"
 	li "SPARK"
 	li "FURY CUTTER"
 	li "STEEL WING"
-	li "MEAN LOOK"
+	li "OMINOUS WIND" ; was Mean Look
 	li "ATTRACT"
 	li "SLEEP TALK"
 	li "HEAL BELL"
 	li "RETURN"
-	li "PRESENT"
-	li "FRUSTRATION"
-	li "SAFEGUARD"
+	li "DARK PULSE" ; was Present
+	li "ASTONISH" ; was Frustation
+	li "PRESENT" ; was Safeguard
 	li "PAIN SPLIT"
 	li "SACRED FIRE"
-	li "MAGNITUDE"
-	li "DYNAMICPUNCH"
+	li "BULLDOZE" ; was Magnitude
+	li "WOOD HAMMER" ; was Dynamicpunch
 	li "MEGAHORN"
 	li "DRAGONBREATH"
 	li "BATON PASS"
@@ -232,10 +232,10 @@ MoveNames::
 	li "SWEET SCENT"
 	li "IRON TAIL"
 	li "METAL CLAW"
-	li "VITAL THROW"
+	li "BLAZING SUN" ; was Vital Throw
 	li "MORNING SUN"
 	li "SYNTHESIS"
-	li "MOONLIGHT"
+	li "SCALD" ; was Moonlight
 	li "HIDDEN POWER"
 	li "CROSS CHOP"
 	li "TWISTER"
@@ -243,11 +243,11 @@ MoveNames::
 	li "SUNNY DAY"
 	li "CRUNCH"
 	li "MIRROR COAT"
-	li "PSYCH UP"
+	li "PYRO BALL" ; was Psych Up
 	li "EXTREMESPEED"
 	li "ANCIENTPOWER"
 	li "SHADOW BALL"
-	li "FUTURE SIGHT"
+	li "ELECTROWEB" ; was Future Sight
 	li "ROCK SMASH"
 	li "WHIRLPOOL"
 	li "BEAT UP"

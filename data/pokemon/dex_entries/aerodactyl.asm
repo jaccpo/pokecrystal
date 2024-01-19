@@ -1,10 +1,10 @@
-	db "FOSSIL@" ; species name
-	dw 511, 1300 ; height, weight
+	db "FRUIT@" ; species name
+	dw 607, 2205 ; height, weight
 
-	db   "In prehistoric"
-	next "times, this"
-	next "#MON flew"
+	db   "Delicious fruits"
+	next "grew out from its"
+	next "neck because it"
 
-	page "freely and"
-	next "fearlessly through"
-	next "the skies.@"
+	page "kept eating the"
+	next "same kind of"
+	next "fruit.@"

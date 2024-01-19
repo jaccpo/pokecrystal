@@ -794,6 +794,12 @@ IlexForest_Blocks:
 DarkCaveVioletEntrance_Blocks:
 	INCBIN "maps/DarkCaveVioletEntrance.blk"
 
+Route30SmallCave_Blocks:
+	INCBIN "maps/Route30SmallCave.blk"
+	
+Route30SmallCave1_Blocks:
+	INCBIN "maps/Route30SmallCave1.blk"	
+
 DarkCaveBlackthornEntrance_Blocks:
 	INCBIN "maps/DarkCaveBlackthornEntrance.blk"
 

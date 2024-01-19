@@ -1,10 +1,10 @@
-	db "ROCK@" ; species name
-	dw 303, 2320 ; height, weight
+	db "BLOSSOM@" ; species name Cherrim
+	dw 108, 205 ; height, weight
 
-	db   "It travels by rol-"
-	next "ling on mountain"
-	next "paths. If it gains"
+	db   "During times of"
+	next "strong sunlight,"
+	next "its bud blossoms,"
 
-	page "too much speed, it"
-	next "stops by running"
-	next "into huge rocks.@"
+	page "its petals open"
+	next "fully, and it be-"
+	next "comes very active.@"

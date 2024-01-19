@@ -1,10 +1,10 @@
-	db "POISON BEE@" ; species name
-	dw 303, 650 ; height, weight
+	db "DECEIVER@" ; species name
+	dw 200, 254 ; height, weight
 
-	db   "It uses sharp,"
-	next "poisonous stings"
-	next "to defeat prey,"
+	db   "Attached to its,"
+	next "head is a huge set"
+	next "of jaws formed by"
 
-	page "then takes the"
-	next "victim back to its"
-	next "nest for food.@"
+	page "horns. It can chew"
+	next "through iron"
+	next "beams.@"

@@ -5,13 +5,14 @@ MACRO landmark
 ENDM
 
 Landmarks:
-; entries correspond to constants/landmark_constants.asm
+; entries correspond to constants/landmark_constants.asm - second one is Y (height) - (higher is lower on map)
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
 	landmark 140, 100, NewBarkTownName
 	landmark 128, 100, Route29Name
 	landmark 100, 100, CherrygroveCityName
 	landmark 100,  80, Route30Name
+	landmark  92,  70, ExplorerCaveName
 	landmark  96,  60, Route31Name
 	landmark  84,  60, VioletCityName
 	landmark  85,  58, SproutTowerName
@@ -182,6 +183,7 @@ Route27Name:         db "ROUTE 27@"
 Route28Name:         db "ROUTE 28@"
 Route29Name:         db "ROUTE 29@"
 Route30Name:         db "ROUTE 30@"
+ExplorerCaveName:    db "EXPLORER¯CAVE@"
 Route31Name:         db "ROUTE 31@"
 Route32Name:         db "ROUTE 32@"
 Route33Name:         db "ROUTE 33@"

@@ -1,10 +1,9 @@
-	db "FISH@" ; species name
-	dw 211, 220 ; height, weight
+	db "WHISKERS@" ; species name
+	dw 104, 42 ; height, weight
 
-	db   "This weak and"
-	next "pathetic #MON"
-	next "gets easily pushed"
+	db   "It probes muddy"
+	next "riverbeds with its"
+	next "too long whiskers."
 
-	page "along rivers when"
-	next "there are strong"
-	next "currents.@"
+	page "a flismy film"
+	next "protects its body.@"

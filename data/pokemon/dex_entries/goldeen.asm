@@ -1,10 +1,9 @@
-	db "GOLDFISH@" ; species name
-	dw 200, 330 ; height, weight
+	db "WING FISH@" ; species name
+	dw 104, 154 ; height, weight
 
-	db   "During spawning"
-	next "season, they swim"
-	next "gracefully in the"
+	db   "The line running"
+	next "down its side can"
+	next "store sunlight."
 
-	page "water, searching"
-	next "for their perfect"
-	next "mate.@"
+	page "It shines vividly"
+	next "at night.@"

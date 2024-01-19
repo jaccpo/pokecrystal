@@ -188,7 +188,7 @@ PoliwagEggMoves:
 AbraEggMoves:
 	db LIGHT_SCREEN
 	db ENCORE
-	db BARRIER
+	db ROAR
 	db -1 ; end
 
 MachopEggMoves:
@@ -269,7 +269,7 @@ GrimerEggMoves:
 ShellderEggMoves:
 	db BUBBLEBEAM
 	db TAKE_DOWN
-	db BARRIER
+	db ROAR
 	db RAPID_SPIN
 	db SCREECH
 	db -1 ; end
@@ -287,7 +287,7 @@ OnixEggMoves:
 
 DrowzeeEggMoves:
 	db LIGHT_SCREEN
-	db BARRIER
+	db ROAR
 	db -1 ; end
 
 KrabbyEggMoves:
@@ -777,7 +777,7 @@ SmoochumEggMoves:
 
 ElekidEggMoves:
 	db KARATE_CHOP
-	db BARRIER
+	db ROAR
 	db ROLLING_KICK
 	db MEDITATE
 	db CROSS_CHOP
@@ -786,7 +786,7 @@ ElekidEggMoves:
 MagbyEggMoves:
 	db KARATE_CHOP
 	db MEGA_PUNCH
-	db BARRIER
+	db ROAR
 	db SCREECH
 	db CROSS_CHOP
 	db -1 ; end

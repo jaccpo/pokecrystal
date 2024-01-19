@@ -1,11 +1,11 @@
-	db GOLDEEN ; 118
+	db GOLDEEN ; 118 Finneon
 
-	db  45,  67,  60,  63,  35,  50
+	db  49,  44,  56,  71,  59,  61 ; 340
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type
-	db 225 ; catch rate
-	db 111 ; base exp
+	db 190 ; catch rate
+	db 92 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
@@ -17,5 +17,5 @@
 	dn EGG_WATER_2, EGG_WATER_2 ; egg groups
 
 	; tm/hm learnset
-	tmhm CURSE, TOXIC, HIDDEN_POWER, SNORE, BLIZZARD, ICY_WIND, PROTECT, RAIN_DANCE, ENDURE, FRUSTRATION, RETURN, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SWIFT, REST, ATTRACT, SURF, WATERFALL, ICE_BEAM
+	tmhm CURSE, TOXIC, HIDDEN_POWER, SNORE, BLIZZARD, ICY_WIND, PROTECT, RAIN_DANCE, ENDURE, FRUSTRATION, RETURN, DOUBLE_TEAM, HORN_DRILL, SLEEP_TALK, SWIFT, REST, ATTRACT, SURF, WATERFALL, ICE_BEAM
 	; end

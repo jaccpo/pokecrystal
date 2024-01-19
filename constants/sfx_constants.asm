@@ -26,7 +26,7 @@
 	const SFX_GRASS_RUSTLE                ; 17
 	const SFX_FLY                         ; 18
 	const SFX_WRONG                       ; 19
-	const SFX_SQUEAK                      ; 1a
+	const SFX_SQUEAK                      ; 1a ****
 	const SFX_STRENGTH                    ; 1b
 	const SFX_BOAT                        ; 1c
 	const SFX_WALL_OPEN                   ; 1d
@@ -95,14 +95,14 @@
 	const SFX_SING                        ; 5c
 	const SFX_HYPER_BEAM                  ; 5d
 	const SFX_SHINE                       ; 5e
-	const SFX_UNKNOWN_5F                  ; 5f
-	const SFX_UNKNOWN_60                  ; 60
-	const SFX_UNKNOWN_61                  ; 61
-	const SFX_SWITCH_POCKETS              ; 62
-	const SFX_UNKNOWN_63                  ; 63
+	const SFX_UNKNOWN_5F                  ; 5f Electric sounding bell thing, machine-like (buzzer)
+	const SFX_UNKNOWN_60                  ; 60 Fire slash cool
+	const SFX_UNKNOWN_61                  ; 61 Slightly cooler and raspier Pound sfx
+	const SFX_SWITCH_POCKETS              ; 62 
+	const SFX_UNKNOWN_63                  ; 63 Slightly raspy wind sound, for wings for instance
 	const SFX_BURN                        ; 64
 	const SFX_TITLE_SCREEN_ENTRANCE       ; 65
-	const SFX_UNKNOWN_66                  ; 66
+	const SFX_UNKNOWN_66                  ; 66 Bloop, slightly metallic, artificial
 	const SFX_GET_COIN_FROM_SLOTS         ; 67
 	const SFX_PAY_DAY                     ; 68
 	const SFX_METRONOME                   ; 69
@@ -135,7 +135,7 @@
 	const SFX_PERISH_SONG                 ; 84
 	const SFX_GIGA_DRAIN                  ; 85
 	const SFX_ATTRACT                     ; 86
-	const SFX_KINESIS_2                   ; 87
+	const SFX_KINESIS_2                   ; 87 bitone, used for Astonish
 	const SFX_ZAP_CANNON                  ; 88
 	const SFX_MEAN_LOOK                   ; 89
 	const SFX_HEAL_BELL                   ; 8a
@@ -158,7 +158,7 @@
 	const SFX_GET_TM                      ; 9b
 	const SFX_GET_BADGE                   ; 9c
 	const SFX_QUIT_SLOTS                  ; 9d
-	const SFX_EGG_CRACK                   ; 9e
+	const SFX_EGG_CRACK                   ; 9e ; "tlut"
 	const SFX_DEX_FANFARE_LESS_THAN_20    ; 9f
 	const SFX_DEX_FANFARE_140_169         ; a0
 	const SFX_DEX_FANFARE_170_199         ; a1

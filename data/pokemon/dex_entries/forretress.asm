@@ -1,10 +1,10 @@
-	db "BAGWORM@" ; species name
-	dw 311, 2770 ; height, weight
+	db "STATIC@" ; Plantrock
+	dw 110, 522 ; height, weight
 
-	db   "Usually found"
-	next "hanging on to a"
-	next "fat tree trunk. It"
+	db   "Its rocky body can"
+	next "endure any hit. It"
+	next "remains motionless"
 
-	page "shoots out bits of"
-	next "its shell when it"
-	next "sees action.@"
+	page "during the day and"
+	next "hides underground"
+	next "at sunset.@"

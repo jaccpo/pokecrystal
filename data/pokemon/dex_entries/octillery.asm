@@ -1,10 +1,10 @@
-	db "JET@" ; species name
-	dw 211, 630 ; height, weight
+	db "TANK@" ; species name
+	dw 211, 830 ; height, weight
 
-	db   "Its instinct is to"
-	next "bury itself in"
-	next "holes. It often"
+	db   "Its traps enemies"
+	next "with its suction-"
+	next "cupped tentacles,"
 
-	page "steals the nesting"
-	next "holes of others to"
-	next "sleep in them.@"
+	page "then smashes them"
+	next "with its rock-hard"
+	next "head.@"

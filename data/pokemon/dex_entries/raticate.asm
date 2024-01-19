@@ -1,10 +1,10 @@
-	db "RAT@" ; species name
-	dw 204, 410 ; height, weight
+	db "RUSHING@" ; species name
+	dw 108, 717 ; height, weight
 
-	db   "The webs on its"
-	next "hind legs enable"
-	next "it to cross"
+	db   "It always runs"
+	next "full speed and in"
+	next "straight lines."
 
-	page "rivers. It search-"
-	next "es wide areas for"
-	next "food.@"
+	page "It is very chal-"
+	next "lenged by curvy"
+	next "roads.@"

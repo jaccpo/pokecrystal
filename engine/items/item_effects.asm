@@ -38,7 +38,7 @@ ItemEffects:
 	dw EvoStoneEffect      ; FIRE_STONE
 	dw EvoStoneEffect      ; THUNDERSTONE
 	dw EvoStoneEffect      ; WATER_STONE
-	dw NoEffect            ; ITEM_19
+	dw PocketPCEffect      ; POCKET_PC
 	dw VitaminEffect       ; HP_UP
 	dw VitaminEffect       ; PROTEIN
 	dw VitaminEffect       ; IRON
@@ -1283,9 +1283,11 @@ RareCandyEffect:
 
 	ld a, MON_LEVEL
 	call GetPartyParamLocation
-
+	
+	ld a, [wLevelCap]
+	ld b, a
 	ld a, [hl]
-	cp MAX_LEVEL
+	cp b
 	jp nc, NoEffectMessage
 
 	inc a
@@ -2079,6 +2081,8 @@ UseRepel:
 
 	ld a, b
 	ld [wRepelEffect], a
+	ld a, [wCurItem]
+	ld [wRepelType], a
 	jp UseItemText
 
 RepelUsedEarlierIsStillInEffectText:
@@ -2281,6 +2285,10 @@ UseRod:
 
 ItemfinderEffect:
 	farcall ItemFinder
+	ret
+	
+PocketPCEffect:
+	farcall PocketPCFunction
 	ret
 
 RestorePPEffect:

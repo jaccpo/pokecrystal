@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
-	dw 307, 550 ; height, weight
+	db "MYSTERIOUS@" ; species name
+	dw 304, 488 ; height, weight
 
-	db   "The tips of its"
-	next "fangs are slanted"
-	next "backward. Once"
+	db   "It proudly wears"
+	next "a bright jewel on"
+	next "its neck. The shi-"
 
-	page "those fangs clamp"
-	next "down, the prey has"
-	next "no hope of escape.@"
+	page "nier it is, the"
+	next "higher its rank"
+	next "in the colony.@"

@@ -1,10 +1,10 @@
-	db "LIVE COAL@" ; species name
-	dw 204, 470 ; height, weight
+	db "SEA LION@" ; species name
+	dw 415, 1230 ; height, weight
 
-	db   "It naturally spits"
-	next "an 1100-degree"
-	next "flame. It is said"
+	db   "Its live near warm"
+	next "areas such as hot"
+	next "springs. It hurls"
 
-	page "when many appear,"
-	next "it heralds a"
-	next "volcanic eruption.@"
+	page "a flaming lump of"
+	next "coal at foes who"
+	next "get too close.@"

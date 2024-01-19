@@ -1,12 +1,12 @@
-	db SEADRA ; 117
+	db SEADRA ; 117 Banette
 
-	db  55,  65,  95,  85,  95,  45
+	db  64,  115,  70,  85,  88,  68 ; BST 490
 	;   hp  atk  def  spd  sat  sdf
 
-	db WATER, WATER ; type
-	db 75 ; catch rate
-	db 155 ; base exp
-	db NO_ITEM, DRAGON_SCALE ; items
+	db GHOST, GHOST ; type
+	db 45 ; catch rate
+	db 180 ; base exp
+	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch
@@ -17,5 +17,5 @@
 	dn EGG_WATER_1, EGG_DRAGON ; egg groups
 
 	; tm/hm learnset
-	tmhm HEADBUTT, CURSE, TOXIC, HIDDEN_POWER, SNORE, BLIZZARD, HYPER_BEAM, ICY_WIND, PROTECT, RAIN_DANCE, ENDURE, FRUSTRATION, DRAGONBREATH, RETURN, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SWIFT, REST, ATTRACT, SURF, WHIRLPOOL, WATERFALL, ICE_BEAM
+	tmhm HEADBUTT, CURSE, TOXIC, HIDDEN_POWER, SNORE, BLIZZARD, HYPER_BEAM, ICY_WIND, PROTECT, RAIN_DANCE, ENDURE, FRUSTRATION, DRAGONBREATH, RETURN, DOUBLE_TEAM, HORN_DRILL, SLEEP_TALK, SWIFT, REST, ATTRACT, SURF, WHIRLPOOL, WATERFALL, ICE_BEAM
 	; end

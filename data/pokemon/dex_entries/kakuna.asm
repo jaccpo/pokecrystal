@@ -1,10 +1,10 @@
 	db "COCOON@" ; species name
-	dw 200, 220 ; height, weight
+	dw 311, 697 ; height, weight
 
-	db   "Nearly incapable"
-	next "of movement, it"
-	next "leans against"
+	db   "Toxic powder is"
+	next "spread with each"
+	next "flap. At night,"
 
-	page "stout trees while"
-	next "waiting for its"
-	next "evolution.@"
+	page "it strips leaves"
+	next "off lining"
+	next "boulevards.@"

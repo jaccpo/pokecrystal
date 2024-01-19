@@ -1,10 +1,10 @@
-	db "ARMOR@" ; species name
-	dw 307, 2650 ; height, weight
+	db "BIG TUSK@" ; species name
+	dw 480, 3940 ; height, weight
 
-	db   "Because this"
-	next "#MON's skin is"
-	next "so tough, a normal"
+	db   "It protects its"
+	next "soft skin with its"
+	next "massive tusks."
 
-	page "attack won't even"
-	next "leave a scratch on"
-	next "it.@"
+	page "If it charges, no-"
+	next "thing can stop it,"
+	next "not even walls.@"

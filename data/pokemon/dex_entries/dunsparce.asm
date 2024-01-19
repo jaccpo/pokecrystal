@@ -1,10 +1,10 @@
-	db "LAND SNAKE@" ; species name
-	dw 411, 310 ; height, weight
+	db "TSUCHINOKO@" ; species name
+	dw 444, 333 ; height, weight
 
-	db   "It hides deep"
-	next "inside caves where"
-	next "no light ever"
+	db   "Believed to be the"
+	next "incarnation of a"
+	next "mythical creature,"
 
-	page "reaches it and"
-	next "remains virtually"
-	next "motionless there.@"
+	page "it is very elusive"
+	next "and ambushes its"
+	next "preys underground.@"

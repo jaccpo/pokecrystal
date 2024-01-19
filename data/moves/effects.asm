@@ -1,6 +1,6 @@
 INCLUDE "data/moves/effects_pointers.asm"
 
-MoveEffects: ; used only for BANK(MoveEffects)
+MoveEffects: ; used only for BANK(MoveEffects) - Don't replace anything, the copies of NormalHit aren't there, everyting only appears once.
 
 NormalHit:
 	checkobedience
@@ -707,11 +707,11 @@ DefenseUpHit:
 	applydamage
 	criticaltext
 	supereffectivetext
-; BUG: Moves that do damage and increase your stats do not increase stats after a KO (see docs/bugs_and_glitches.md)
-	checkfaint
-	buildopponentrage
 	defenseup
 	statupmessage
+; BUG: Moves that do damage and increase your stats do not increase stats after a KO (see docs/bugs_and_glitches.md) [FIXED]
+	checkfaint
+	buildopponentrage
 	endmove
 
 AttackUpHit:
@@ -730,10 +730,10 @@ AttackUpHit:
 	applydamage
 	criticaltext
 	supereffectivetext
-	checkfaint
-	buildopponentrage
 	attackup
 	statupmessage
+	checkfaint
+	buildopponentrage
 	endmove
 
 AllUpHit:
@@ -752,9 +752,9 @@ AllUpHit:
 	applydamage
 	criticaltext
 	supereffectivetext
+	allstatsup
 	checkfaint
 	buildopponentrage
-	allstatsup
 	endmove
 
 PayDay:
@@ -1746,7 +1746,7 @@ Pursuit:
 	kingsrock
 	endmove
 
-RapidSpin:
+RapidSpin: ; +1 speed
 	checkobedience
 	usedmovetext
 	doturn
@@ -1756,6 +1756,7 @@ RapidSpin:
 	stab
 	damagevariation
 	checkhit
+	effectchance
 	moveanim
 	failuretext
 	applydamage
@@ -1765,6 +1766,8 @@ RapidSpin:
 	checkfaint
 	buildopponentrage
 	kingsrock
+	speedup
+	statupmessage
 	endmove
 
 MorningSun:
@@ -2077,3 +2080,269 @@ DefenseCurl:
 	statupmessage
 	statupfailtext
 	endmove
+	
+Flareblitz:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	recoil
+	checkfaint
+	buildopponentrage
+	burntarget
+	endmove
+	
+Calmmind:	; Use as reference
+	checkobedience
+    usedmovetext
+    doturn
+	lowersub
+    statupanim
+	raisesub
+    specialattackup
+	statupmessage
+	specialdefenseup
+	statupmessage
+    statupfailtext
+    endmove
+	
+Dragondance:
+	checkobedience
+    usedmovetext
+    doturn
+	lowersub
+    statupanim
+	raisesub
+    attackup
+	statupmessage
+	speedup
+	statupmessage
+    statupfailtext
+    endmove
+	
+Bulkup:
+	checkobedience
+    usedmovetext
+    doturn
+	lowersub
+    statupanim
+	raisesub
+    attackup
+	statupmessage
+	defenseup
+	statupmessage
+    statupfailtext
+    endmove
+	
+Quiverdance:
+	checkobedience
+    usedmovetext
+    doturn
+	lowersub
+    statupanim
+	raisesub
+    specialattackup
+	statupmessage
+	specialdefenseup
+	statupmessage
+	speedup
+	statupmessage
+    statupfailtext
+    endmove
+	
+Spatkuphit:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	specialattackup
+	statupmessage
+	endmove
+	
+DoBurn:
+	checkobedience
+	usedmovetext
+	doturn
+	stab
+	checkhit
+	checksafeguard
+	burntarget
+	endmove
+	
+Meditate: ; Special Hone Claws
+	checkobedience
+    usedmovetext
+    doturn
+	lowersub
+    statupanim
+	raisesub
+    specialattackup
+	statupmessage
+	accuracyup
+	statupmessage
+    statupfailtext
+    endmove		
+	
+Speeduphit:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	speedup
+	statupmessage
+	endmove
+
+Coil:
+	checkobedience
+    usedmovetext
+    doturn
+	lowersub
+    statupanim
+	raisesub
+    attackup
+	statupmessage
+	defenseup
+	statupmessage
+	accuracyup
+	statupmessage
+    statupfailtext
+    endmove
+	
+Toxichit:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	poison ; was poisontarget
+	endmove
+	
+Sweetscent: ; Doesn't work, check later
+    checkobedience
+    usedmovetext
+    doturn
+    checkhit
+    checksafeguard
+    confuse
+    defensedown
+    lowersub
+    statdownanim
+    raisesub
+    statdownmessage
+    statdownfailtext
+    endmove
+
+Gulpup: ; HP drain & -1 speed	
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	draintarget
+	checkfaint
+	buildopponentrage
+	kingsrock
+	speeddown
+    statdownmessage
+	endmove
+	
+Hurricane:	; TO FIX - ANIMATION PLAYS TWICE WHEN EFFECT TRIGGERS
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	thunderaccuracy
+	checkhit
+	effectchance
+	stab
+	damagevariation
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	;confusetarget
+	endmove
+
+SuckerPunch:
+	checkobedience
+	usedmovetext
+	doturn
+	suckerpunch
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove	

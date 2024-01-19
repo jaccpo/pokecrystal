@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 108, 120 ; height, weight
+	db "KITTEN@" ; species name - Skitty
+	dw 200, 243 ; height, weight
 
-	db   "It rolls its cute"
-	next "eyes as it sings a"
-	next "soothing lullaby."
+	db   "It can't stop it-"
+	next "itself from"
+	next "chasing moving"
 
-	page "Its gentle song"
-	next "puts anyone who"
-	next "hears it to sleep.@"
+	page "things, and it"
+	next "runs in a circle,"
+	next "chasing its tail.@"

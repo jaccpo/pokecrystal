@@ -1,20 +1,23 @@
-INCLUDE "data/trainers/party_pointers.asm"
-
-Trainers:
 ; Trainer data structure:
-; - db "NAME@", TRAINERTYPE_* constant
+; - db "NAME@", TRAINERTYPE_* constants |ed together
 ; - 1 to 6 Pokémon:
-;    * for TRAINERTYPE_NORMAL:     db level, species
-;    * for TRAINERTYPE_MOVES:      db level, species, 4 moves
-;    * for TRAINERTYPE_ITEM:       db level, species, item
-;    * for TRAINERTYPE_ITEM_MOVES: db level, species, item, 4 moves
+;    * in all cases:              db level, species
+;    * with TRAINERTYPE_NICKNAME: db "NICKNAME@"
+;    * with TRAINERTYPE_DVS:      db atk|def dv, spd|spc dv
+;    * with TRAINERTYPE_STAT_EXP: dw hp, atk, def, spd, spc
+;    * with TRAINERTYPE_HAPPINESS db happiness 
+;    * with TRAINERTYPE_ITEM:     db item
+;    * with TRAINERTYPE_MOVES:    db move 1, move 2, move 3, move 4
+;    (TRAINERTYPE_ITEM_MOVES is just TRAINERTYPE_ITEM | TRAINERTYPE_MOVES)
 ; - db -1 ; end
+
+SECTION "Enemy Trainer Parties 1", ROMX
 
 FalknerGroup:
 	; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_MOVES
-	db  7, PIDGEY,     TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
-	db  9, PIDGEOTTO,  TACKLE, MUD_SLAP, GUST, NO_MOVE
+	db  2, PIDGEY,     TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
+	db  2, PIDGEOTTO,  TACKLE, MUD_SLAP, GUST, NO_MOVE
 	db -1 ; end
 
 WhitneyGroup:
@@ -75,8 +78,17 @@ ClairGroup:
 
 Rival1Group:
 	; RIVAL1 (1)
-	db "?@", TRAINERTYPE_NORMAL
-	db  5, CHIKORITA
+	db "?@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
+	db  6, RATTATA
+		db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc DV
+		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP; hp, atk, def, spd, spc - STAT EXP
+		db BERRY
+		db HEADBUTT, CRUNCH, BITE, EARTHQUAKE ; 
+	db  6, TOTODILE
+		db ATKDEFDV_SHINY, SPDSPCDV_SHINY ; atk|def, spd|spc
+		dw $0000, PERFECT_STAT_EXP, $0000, PERFECT_STAT_EXP, $0000 ; hp, atk, def, spd, spc
+		db BERRY
+		db SCRATCH, LEER, NO_MOVE, NO_MOVE
 	db -1 ; end
 
 	; RIVAL1 (2)
@@ -338,13 +350,14 @@ ErikaGroup:
 YoungsterGroup:
 	; YOUNGSTER (1)
 	db "JOEY@", TRAINERTYPE_NORMAL
+	db  4, HOUNDOUR
 	db  4, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER (2)
 	db "MIKEY@", TRAINERTYPE_NORMAL
-	db  2, PIDGEY
-	db  4, RATTATA
+	db  4, PIDGEY
+	db  5, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER (3)
@@ -1061,6 +1074,25 @@ CooltrainerFGroup:
 	db 33, HORSEA,     SMOKESCREEN, LEER, WHIRLPOOL, TWISTER
 	db 35, SEADRA,     SWIFT, LEER, WATERFALL, TWISTER
 	db -1 ; end
+	
+	; COOLTRAINERF (22)
+	db "SANDRA@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
+	db  19, DONPHAN ; TRUNKLET
+		db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc DV
+		dw $0000, $0000, $0000, $0000, $0000,; hp, atk, def, spd, spc - STAT EXP
+		db NO_ITEM
+		db HEADBUTT, LEER, ROLLOUT, MAGNITUDE ;
+	db  20, KAKUNA ; DUSTOX
+		db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc DV
+		dw $0000, $FFFF, $0000, $0000, $01F4,; hp, atk, def, spd, spc - STAT EXP
+		db BERRY
+		db WING_ATTACK, SUPERSONIC, ACID, TOXIC ; 
+	db  20, GLIGAR ; sockfox
+		db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc DV
+		dw $0000, $0000, $0000, $0000, $0000,; hp, atk, def, spd, spc - STAT EXP
+		db SHARP_BEAK
+		db RAZOR_WIND, HYPER_BEAM, PAY_DAY, THUNDERBOLT ;
+	db -1 ; end
 
 BeautyGroup:
 	; BEAUTY (1)
@@ -1489,15 +1521,15 @@ SabrinaGroup:
 	; SABRINA (1)
 	db "SABRINA@", TRAINERTYPE_MOVES
 	db 46, ESPEON,     SAND_ATTACK, QUICK_ATTACK, SWIFT, PSYCHIC_M
-	db 46, MR__MIME,   BARRIER, REFLECT, BATON_PASS, PSYCHIC_M
+	db 46, MR__MIME,   ROAR, REFLECT, BATON_PASS, PSYCHIC_M
 	db 48, ALAKAZAM,   RECOVER, FUTURE_SIGHT, PSYCHIC_M, REFLECT
 	db -1 ; end
 
 BugCatcherGroup:
 	; BUG_CATCHER (1)
 	db "DON@", TRAINERTYPE_NORMAL
-	db  3, CATERPIE
-	db  3, CATERPIE
+	db  5, CATERPIE ; WURMPLE
+	db  5, PARAS
 	db -1 ; end
 
 	; BUG_CATCHER (2)
@@ -2410,6 +2442,20 @@ HikerGroup:
 	db 34, GRAVELER,   MAGNITUDE, SELFDESTRUCT, DEFENSE_CURL, ROLLOUT
 	db 36, GOLEM,      MAGNITUDE, SELFDESTRUCT, DEFENSE_CURL, ROLLOUT
 	db 34, MACHOKE,    KARATE_CHOP, VITAL_THROW, HEADBUTT, DIG
+	db -1 ; end
+	
+	; HIKER (23) raise levels !!!!
+	db "DWIGHT@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
+	db  2, PHANPY ; TRUNKLET
+		db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc DV
+		dw $0000, $0000, $0000, $0000, $0000,; hp, atk, def, spd, spc - STAT EXP
+		db NO_ITEM
+		db HEADBUTT, LEER, ROLLOUT, DEFENSE_CURL ;
+	db  2, SWINUB ; AMAURA
+		db PERFECT_DV, PERFECT_DV ; atk|def, spd|spc DV
+		dw $0000, $0000, $0000, $0000, $0000,; hp, atk, def, spd, spc - STAT EXP
+		db NO_ITEM
+		db MAGNITUDE, ICY_WIND, REST, SNORE	
 	db -1 ; end
 
 BikerGroup:

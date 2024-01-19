@@ -1,10 +1,9 @@
-	db "RAT@" ; species name
-	dw 100, 80 ; height, weight
+	db "TINY RACOON@" ; species name
+	dw 104, 386 ; height, weight
 
-	db   "This #MON's"
-	next "impressive vital-"
-	next "ity allows it to"
+	db   "Very curious, it"
+	next "shows an interest"
+	next "in everything,"
 
-	page "live anywhere. It"
-	next "also multiplies"
-	next "very quickly.@"
+	page "so it always zigs"
+	next "and zags.@"

@@ -1,10 +1,10 @@
 	db "LONG NOSE@" ; species name
-	dw 108, 740 ; height, weight
+	dw 120, 812 ; height, weight
 
-	db   "During the desert-"
-	next "ed morning hours,"
-	next "it comes ashore"
+	db   "It buries its"
+	next "trunk in the mud,"
+	next "looking for food."
 
-	page "where it deftly"
-	next "uses its trunk to"
-	next "take a shower.@"
+	page "It can cause tre-"
+	next "mors by stomping"
+	next "the ground.@"

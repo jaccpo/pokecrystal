@@ -1,10 +1,10 @@
 	db "COCOON@" ; species name
-	dw 204, 220 ; height, weight
+	dw 200, 220 ; height, weight
 
-	db   "This is its pre-"
-	next "evolved form. At"
-	next "this stage, it can"
+	db   "It drinks dew that"
+	next "collects on its"
+	next "silk and waits for"
 
-	page "only harden, so it"
-	next "remains motionless"
-	next "to avoid attack.@"
+	page "its evolution. Its"
+	next "hard cocoon repels"
+	next "attacks.@"

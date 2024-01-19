@@ -1,10 +1,10 @@
-	db "WEED@" ; species name
-	dw 108, 120 ; height, weight
+	db "FLOWERING@" ; species name GOSSIFLEUR
+	dw 104, 49 ; height, weight
 
-	db   "During the day, it"
-	next "stays in the cold"
-	next "underground to"
+	db   "When it sticks its"
+	next "leg into the"
+	next "ground, it sings a"
 
-	page "avoid the sun."
-	next "It grows by bath-"
-	next "ing in moonlight.@"
+	page "happy song, which"
+	next "adds colours to"
+	next "its petals.@"

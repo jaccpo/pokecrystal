@@ -1,10 +1,10 @@
-	db "WEED@" ; species name
-	dw 207, 190 ; height, weight
+	db "COTTON@" ; species name
+	dw 108, 55 ; height, weight
 
-	db   "The smell from its"
-	next "drool-like syrup"
-	next "and the pollen on"
+	db   "The seeds attached"
+	next "to its cotton"
+	next "fluff are full of"
 
-	page "its petals is so"
-	next "bad, it may make"
-	next "opponents faint.@"
+	page "nutrients. It"
+	next "spreads them so"
+	next "plants can grow.@"

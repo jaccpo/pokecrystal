@@ -1,10 +1,10 @@
-	db "IRON SNAKE@" ; species name
-	dw 3002, 8820 ; height, weight
+	db "LONGEVITY@" ; species name
+	dw 303, 516 ; height, weight
 
-	db   "The many small"
-	next "metal particles"
-	next "that cover this"
+	db   "Discovered by"
+	next "chance during deep"
+	next "deep-sea explo-"
 
-	page "#MON's body"
-	next "reflect bright"
-	next "light well.@"
+	page "rations, it has"
+	next "not changed since"
+	next "ancient times.@"

@@ -30,7 +30,7 @@ VioletGymFalknerScript:
 	readvar VAR_BADGES
 	scall VioletGymActivateRockets
 .FightDone:
-	checkevent EVENT_GOT_TM31_MUD_SLAP
+	checkevent EVENT_GOT_TM05_BARRIER
 	iftrue .SpeechAfterTM
 	setevent EVENT_BEAT_BIRD_KEEPER_ROD
 	setevent EVENT_BEAT_BIRD_KEEPER_ABE
@@ -38,10 +38,10 @@ VioletGymFalknerScript:
 	specialphonecall SPECIALCALL_ASSISTANT
 	writetext FalknerZephyrBadgeText
 	promptbutton
-	verbosegiveitem TM_MUD_SLAP
-	iffalse .NoRoomForMudSlap
-	setevent EVENT_GOT_TM31_MUD_SLAP
-	writetext FalknerTMMudSlapText
+	verbosegiveitem TM_BARRIER
+	iffalse .NoRoomForBarrier
+	setevent EVENT_GOT_TM05_BARRIER
+	writetext FalknerTMBarrierText
 	waitbutton
 	closetext
 	end
@@ -49,7 +49,7 @@ VioletGymFalknerScript:
 .SpeechAfterTM:
 	writetext FalknerFightDoneText
 	waitbutton
-.NoRoomForMudSlap:
+.NoRoomForBarrier:
 	closetext
 	end
 
@@ -152,43 +152,40 @@ ReceivedZephyrBadgeText:
 	done
 
 FalknerZephyrBadgeText:
-	text "ZEPHYRBADGE"
-	line "raises the attack"
-	cont "power of #MON."
-
-	para "It also enables"
+	text "It enables"
 	line "#MON to use"
+	cont "FLASH, if they"
 
-	para "FLASH, if they"
-	line "have it, anytime."
+	para "have it, anytime."
+	done 
 
 	para "Here--take this"
 	line "too."
 	done
 
-FalknerTMMudSlapText:
+FalknerTMBarrierText: ; Squall
 	text "By using a TM, a"
 	line "#MON will"
 
 	para "instantly learn a"
 	line "new move."
 
-	para "Think before you"
-	line "act--a TM can be"
-	cont "used only once."
+	para "A TM can be used"
+	line "as many times as"
+	cont "you like."
 
-	para "TM31 contains"
-	line "MUD-SLAP."
+	para "TM05 contains"
+	line "the move SQUALL."
 
-	para "It reduces the"
-	line "enemy's accuracy"
+	para "It launches a"
+	line "quick gust of air"
 
-	para "while it causes"
-	line "damage."
+	para "that always hits"
+	line "first."
 
-	para "In other words, it"
-	line "is both defensive"
-	cont "and offensive."
+	para "Very useful to"
+	line "turn the tide of"
+	cont "the battle!"
 	done
 
 FalknerFightDoneText:

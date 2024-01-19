@@ -1,4 +1,4 @@
-Intro_MainMenu:
+Intro_MainMenu: ; line 217 - Change initial level cap
 	ld de, MUSIC_NONE
 	call PlayMusic
 	call DelayFrame
@@ -213,6 +213,9 @@ endc
 	ld [hl], HIGH(MOM_MONEY) ; mid
 	inc hl
 	ld [hl], LOW(MOM_MONEY)
+	
+	ld a, 20
+	ld [wLevelCap], a
 
 	call InitializeNPCNames
 

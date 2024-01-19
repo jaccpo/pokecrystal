@@ -48,11 +48,11 @@ CeladonDeptStore3FDirectory:
 	jumptext CeladonDeptStore3FDirectoryText
 
 CeladonDeptStore3FYoungsterText:
-	text "I can't decide"
-	line "which #MON I"
+	text "TMs are expensive,"
+	line "but you can now"
 
-	para "should use this TM"
-	line "on…"
+	para "use them as many"
+	line "times as you want!"
 	done
 
 CeladonDeptStore3FGameboyKid1Text:

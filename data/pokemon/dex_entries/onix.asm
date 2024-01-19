@@ -1,10 +1,10 @@
-	db "ROCK SNAKE@" ; species name
-	dw 2810, 4630 ; height, weight
+	db "PARASITE@" ; species name -  Turban, placeholder
+	dw 408, 3140 ; height, weight
 
-	db   "As it digs through"
-	next "the ground, it"
-	next "absorbs many hard"
+	db   "It is believed to"
+	next "be the cause of"
+	next "Slowbro's mass"
 
-	page "objects. This is"
-	next "what makes its"
-	next "body so solid.@"
+	page "extinction. Once"
+	next "it bites a foe, it"
+	next "controls its mind.@"

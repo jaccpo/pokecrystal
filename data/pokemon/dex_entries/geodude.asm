@@ -1,10 +1,10 @@
-	db "ROCK@" ; species name
-	dw 104, 440 ; height, weight
+	db "CHERRY@" ; species name
+	dw 104, 73 ; height, weight
 
-	db   "Proud of their"
-	next "sturdy bodies,"
-	next "they bash against"
+	db   "It evolves by su-"
+	next "cking the energy"
+	next "out of the small"
 
-	page "each other in a"
-	next "contest to prove"
-	next "whose is harder.@"
+	page "ball where it had"
+	next "been storing"
+	next "nutrients.@"

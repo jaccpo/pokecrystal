@@ -422,6 +422,7 @@ Route31_MapEvents:
 	warp_event  4,  6, ROUTE_31_VIOLET_GATE, 3
 	warp_event  4,  7, ROUTE_31_VIOLET_GATE, 4
 	warp_event 34,  5, DARK_CAVE_VIOLET_ENTRANCE, 1
+	warp_event  2, 13, ROUTE_30_SMALL_CAVE_1, 14
 
 	def_coord_events
 

@@ -1,10 +1,10 @@
-	db "MEGATON@" ; species name
-	dw 407, 6620 ; height, weight
+	db "NIGHTDEW@" ; species name Cherrim 2
+	dw 108, 340 ; height, weight
 
-	db   "Its rock-like body"
-	next "is so durable,"
-	next "even high-powered"
+	db   "After evolution,"
+	next "its petals harden"
+	next "to protect its"
 
-	page "dynamite blasts"
-	next "fail to scratch"
-	next "its rugged hide.@"
+	page "soft, toxic core."
+	next "It opens up only"
+	next "to spit venom.@"

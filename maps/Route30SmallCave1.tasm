@@ -1,0 +1,35 @@
+	object_const_def
+	const ROUTE30_SMALL_CAVE_1_POKE_BALL1
+
+Route30SmallCave1_MapScripts:
+	def_scene_scripts
+
+	def_callbacks	
+	
+Route30SmallCave1PPUp:
+	itemball PP_UP
+
+Route30SmallCave1_MapEvents:
+	db 0, 0 ; filler
+
+	def_warp_events
+	warp_event 29, 25, ROUTE_30_SMALL_CAVE, 2
+	warp_event 18, 33, ROUTE_30_SMALL_CAVE_1, 3
+	warp_event 14,  2, ROUTE_30_SMALL_CAVE_1, 2
+	warp_event 15, 13, ROUTE_30_SMALL_CAVE_1, 5
+	warp_event  5, 33, ROUTE_30_SMALL_CAVE_1, 4
+	warp_event  5, 27, ROUTE_30_SMALL_CAVE_1, 7
+	warp_event  5, 19, ROUTE_30_SMALL_CAVE_1, 6
+	warp_event  3, 17, ROUTE_30_SMALL_CAVE_1, 9
+	warp_event  5,  3, ROUTE_30_SMALL_CAVE_1, 8
+	warp_event  3,  7, ROUTE_31, 8
+
+	def_coord_events
+
+	def_bg_events
+
+	def_object_events
+	object_event 23, 32, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0,Route30SmallCave1PPUp, EVENT_ROUTE_30_SMALL_CAVE_1_PP_UP
+
+	
+	

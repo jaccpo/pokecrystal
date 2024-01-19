@@ -1,11 +1,11 @@
-	db KAKUNA ; 014
+	db KAKUNA ; 014 Dustox
 
-	db  45,  25,  50,  35,  25,  25
+	db  70,  44,  104,  65,  64,  93 ; BST 440
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, POISON ; type
-	db 120 ; catch rate
-	db 71 ; base exp
+	db 60 ; catch rate
+	db 155 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
@@ -17,5 +17,5 @@
 	dn EGG_BUG, EGG_BUG ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, SWEET_SCENT, SNORE, HYPER_BEAM, PROTECT, GIGA_DRAIN, ENDURE, FRUSTRATION, SOLARBEAM, RETURN, PSYCHIC_M, DOUBLE_TEAM, HORN_DRILL, SLEEP_TALK, SWIFT, REST, ATTRACT, NIGHTMARE, FLASH
 	; end

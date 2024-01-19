@@ -1,10 +1,10 @@
-	db "WILD BULL@" ; species name
-	dw 407, 1950 ; height, weight
+	db "RODENT@" ; species name
+	dw 108, 134 ; height, weight
 
-	db   "These violent"
-	next "#MON fight"
-	next "with other mem-"
+	db   "It is loved by"
+	next "many for its soft"
+	next "fur and joyful de-"
 
-	page "bers of their herd"
-	next "in order to prove"
-	next "their strength.@"
+	page "meanor. It curls"
+	next "up into a ball"
+	next "when attacked.@"

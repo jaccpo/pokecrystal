@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
-	dw 207, 430 ; height, weight
+	db "MARTIAL ARTS@" ; species name
+	dw 211, 441 ; height, weight
 
-	db   "It trains by"
-	next "lifting rocks in"
-	next "the mountains. It"
+	db   "It takes pride in"
+	next "the speed at which"
+	next "it can use moves."
 
-	page "can even pick up a"
-	next "GRAVELER with"
-	next "ease.@"
+	page "What it loses in"
+	next "power, it makes up"
+	next "for in quantity.@"

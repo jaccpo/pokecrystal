@@ -499,6 +499,8 @@ ENDM
 	map_const ROUTE_30_BERRY_HOUSE,                         4,  4 ;  9
 	map_const MR_POKEMONS_HOUSE,                            4,  4 ; 10
 	map_const ROUTE_31_VIOLET_GATE,                         5,  4 ; 11
+	map_const ROUTE_30_SMALL_CAVE,                          8,  6 ; 12
+	map_const ROUTE_30_SMALL_CAVE_1,                       16,  24 ; 13
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 26

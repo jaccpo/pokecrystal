@@ -1,10 +1,10 @@
-	db "HYPNOSIS@" ; species name
-	dw 503, 1670 ; height, weight
+	db "SCRAPPY@" ; species name
+	dw 411, 2180 ; height, weight
 
-	db   "The longer it"
-	next "swings its"
-	next "pendulum, the"
+	db   "Very aggressive by"
+	next "nature, it per-"
+	next "forms an odd dance"
 
-	page "longer the effects"
-	next "of its hypnosis"
-	next "last.@"
+	page "to confuse its"
+	next "target and knock"
+	next "it out.@"

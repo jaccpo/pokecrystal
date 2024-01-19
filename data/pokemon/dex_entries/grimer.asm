@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
-	dw 211, 660 ; height, weight
+	db "STOMACH@" ; Gulpin
+	dw 104, 227 ; height, weight
 
-	db   "When two of these"
-	next "#MON's bodies"
-	next "are combined"
+	db   "There is nothing"
+	next "its stomach can't"
+	next "digest. While it"
 
-	page "together, new"
-	next "poisons are"
-	next "created.@"
+	page "is digesting, vile"
+	next "overpowering gases"
+	next "are expelled.@"

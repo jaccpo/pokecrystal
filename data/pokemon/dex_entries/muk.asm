@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
-	dw 311, 660 ; height, weight
+	db "POISON BAG@" ; species name
+	dw 507, 1764 ; height, weight
 
-	db   "As it moves, a"
-	next "very strong poison"
-	next "leaks from it,"
+	db   "It can swallow a"
+	next "tire whole with"
+	next "one gulp. It se-"
 
-	page "making the ground"
-	next "there barren for"
-	next "three years.@"
+	page "cretes a horribly"
+	next "toxic fluid from"
+	next "its pores.@"

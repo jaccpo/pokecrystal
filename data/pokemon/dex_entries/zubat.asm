@@ -1,10 +1,10 @@
 	db "BAT@" ; species name
-	dw 207, 170 ; height, weight
+	dw 104, 46 ; height, weight
 
-	db   "During the day, it"
-	next "gathers with"
-	next "others and hangs"
+	db   "It lives in dark"
+	next "forests and caves."
+	next "It emits ultra-"
 
-	page "from the ceilings"
-	next "of old buildings"
-	next "and caves.@"
+	page "sonic waves from"
+	next "its nose to map"
+	next "its surroundings.@"

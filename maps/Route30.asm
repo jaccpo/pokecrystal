@@ -261,7 +261,7 @@ Route30_MikeysRattataAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, RATTATA!"
+	text "Go, ZIGZAGOON!"
 
 	para "TACKLE!"
 	done
@@ -288,15 +288,8 @@ YoungsterJoey1BeatenText:
 	done
 
 YoungsterJoey1AfterText:
-	text "Do I have to have"
-	line "more #MON in"
-
-	para "order to battle"
-	line "better?"
-
-	para "No! I'm sticking"
-	line "with this one no"
-	cont "matter what!"
+	text "RATTATA? What is"
+	line "a RATTATA?"
 	done
 
 YoungsterMikeySeenText:
@@ -355,11 +348,11 @@ Route30YoungsterText_EveryoneIsBattling:
 	done
 
 Route30CooltrainerFText:
-	text "I'm not a trainer."
-
-	para "But if you look"
-	line "one in the eyes,"
-	cont "prepare to battle."
+	text "I want to explore"
+	line "this cave, but a"
+	cont "tree is blocking"
+	
+	para "the way..."
 	done
 
 Route30SignText:
@@ -410,6 +403,7 @@ Route30_MapEvents:
 	def_warp_events
 	warp_event  7, 39, ROUTE_30_BERRY_HOUSE, 1
 	warp_event 17,  5, MR_POKEMONS_HOUSE, 1
+	warp_event 8, 11, ROUTE_30_SMALL_CAVE, 1
 
 	def_coord_events
 
@@ -430,5 +424,5 @@ Route30_MapEvents:
 	object_event  5, 25, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_30_BATTLE
 	object_event  5, 39, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30FruitTree1, -1
 	object_event 11,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30FruitTree2, -1
-	object_event  2, 13, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30CooltrainerFScript, -1
+	object_event  5, 11, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30CooltrainerFScript, -1
 	object_event  8, 35, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route30Antidote, EVENT_ROUTE_30_ANTIDOTE

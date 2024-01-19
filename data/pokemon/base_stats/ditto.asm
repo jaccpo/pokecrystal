@@ -1,11 +1,11 @@
-	db DITTO ; 132
+	db DITTO ; 132 Ditto cursed
 
-	db  48,  48,  48,  48,  48,  48
+	db  58,  48,  108,  68,  78,  108 ; 468
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, NORMAL ; type
-	db 35 ; catch rate
-	db 61 ; base exp
+	db POISON, GHOST ; type
+	db 50 ; catch rate
+	db 115 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1

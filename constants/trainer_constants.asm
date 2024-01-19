@@ -239,6 +239,7 @@ DEF KRIS EQU __trainer_class__
 	const REENA2
 	const REENA3
 	const CARA
+	const SANDRA
 
 	trainerclass BEAUTY ; 1d
 	const VICTORIA
@@ -486,6 +487,7 @@ DEF KRIS EQU __trainer_class__
 	const PARRY3
 	const ANTHONY4
 	const ANTHONY5
+	const DWIGHT
 
 	trainerclass BIKER ; 2d
 	const BIKER_BENNY ; unused

@@ -1,10 +1,10 @@
-	db "BARRIER@" ; species name
-	dw 403, 1200 ; height, weight
+	db "SUBSTITUTE@" ; species name
+	dw 200, 182 ; height, weight
 
-	db   "It uses the"
-	next "mysterious"
-	next "power it has in"
+	db   "It was long be-"
+	next "lived to be an"
+	next "inanimate doll but"
 
-	page "its fingers to"
-	next "solidify air into"
-	next "an invisible wall.@"
+	page "researchers found"
+	next "it to harness a"
+	next "mysterious power.@"

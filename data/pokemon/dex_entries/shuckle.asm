@@ -1,10 +1,10 @@
-	db "MOLD@" ; species name
-	dw 200, 450 ; height, weight
+	db "FIERCE@" ; species name
+	dw 340, 490 ; height, weight
 
-	db   "The fluid secreted"
-	next "by its toes carves"
-	next "holes in rocks for"
+	db   "With time, its"
+	next "biolology changed"
+	next "to account for its"
 
-	page "nesting and can be"
-	next "mixed with BERRIES"
-	next "to make a drink.@"
+	page "harsher environ-"
+	next "ment. Its bite is"
+	next "very powerful.@"

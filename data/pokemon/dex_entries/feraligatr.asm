@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
-	dw 707, 1960 ; height, weight
+	db "BENEVOLENT@" ; species name
+	dw 720, 2100 ; height, weight
 
-	db   "Although it has a"
-	next "massive body, its"
-	next "powerful hind legs"
+	db   "Kind, it guides"
+	next "sailors. However,"
+	next "trying to steal"
 
-	page "enable it to move"
-	next "quickly, even on"
-	next "the ground.@"
+	page "its pearl un-"
+	next "unleashes its for-"
+	next "midable wrath.@"

@@ -1,10 +1,10 @@
-	db "HAIRY BUG@" ; species name
-	dw 100, 70 ; height, weight
+	db "COCOON@" ; species name - Cascoon
+	dw 204, 254 ; height, weight
 
-	db   "The barb on top of"
-	next "its head secretes"
-	next "a strong poison."
+	db   "It never forgets"
+	next "any attack it en-"
+	next "dured while in"
 
-	page "It uses this toxic"
-	next "barb to protect"
-	next "itself.@"
+	page "the cocoon. After"
+	next "evolution, it"
+	next "seeks payback.@"

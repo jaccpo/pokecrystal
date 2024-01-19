@@ -1,10 +1,10 @@
 	db "WORM@" ; species name
-	dw 100, 60 ; height, weight
+	dw 100, 79 ; height, weight
 
-	db   "It crawls into"
-	next "foliage where it"
-	next "camouflages itself"
+	db   "It immobilises"
+	next "foes with the"
+	next "white silk it"
 
-	page "among leaves that"
-	next "are the same color"
-	next "as its body.@"
+	page "spits. It turns"
+	next "sticky when in"
+	next "contact with air.@"

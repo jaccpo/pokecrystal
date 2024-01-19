@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 311, 550 ; height, weight
+	db "MARIONETTE@" ; species name
+	dw 307, 276 ; height, weight
 
-	db   "The male raises"
-	next "the young. If it"
-	next "is approached, it"
+	db   "A doll that became"
+	next "a Pokémon over its"
+	next "grudge of being"
 
-	page "uses its toxic"
-	next "spikes to fend off"
-	next "the intruder.@"
+	page "junked. It seeks"
+	next "the child that"
+	next "disowned it.@"

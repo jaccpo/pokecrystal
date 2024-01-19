@@ -1,10 +1,10 @@
-	db "SCUFFLE@" ; species name
-	dw 204, 460 ; height, weight
+	db "CORAL@" ; species name
+	dw 303, 9 ; height, weight
 
-	db   "To brush up on its"
-	next "fighting skills,"
-	next "it will challenge"
+	db   "Its shell over-"
+	next "flows with other-"
+	next "worldly energy."
 
-	page "anyone. It has a"
-	next "very strong com-"
-	next "petitive spirit.@"
+	page "The ectoplasm pro-"
+	next "tects the Po-"
+	next "kémon's core.@"

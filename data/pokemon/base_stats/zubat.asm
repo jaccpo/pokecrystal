@@ -1,11 +1,11 @@
-	db ZUBAT ; 041
+	db ZUBAT ; 041 woobat
 
-	db  40,  45,  35,  55,  30,  40
+	db  65,  45,  43,  72,  60,  43
 	;   hp  atk  def  spd  sat  sdf
 
-	db POISON, FLYING ; type
-	db 255 ; catch rate
-	db 54 ; base exp
+	db PSYCHIC_TYPE, FLYING ; type
+	db 190 ; catch rate
+	db 65 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
@@ -17,5 +17,5 @@
 	dn EGG_FLYING, EGG_FLYING ; egg groups
 
 	; tm/hm learnset
-	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, SNORE, PROTECT, GIGA_DRAIN, ENDURE, FRUSTRATION, RETURN, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SWIFT, DETECT, REST, ATTRACT, THIEF, STEEL_WING
+	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, SNORE, PROTECT, GIGA_DRAIN, ENDURE, FRUSTRATION, RETURN, DOUBLE_TEAM, HORN_DRILL, SLEEP_TALK, SWIFT, DETECT, REST, ATTRACT, THIEF, STEEL_WING
 	; end

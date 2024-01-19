@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
-	dw 503, 1210 ; height, weight
+	db "COURTING@" ; species name
+	dw 211, 231 ; height, weight
 
-	db   "When it plunges"
-	next "its fangs into its"
-	next "prey, it instantly"
+	db   "It shakes its tail"
+	next "when it emits"
+	next "ultrasonic waves"
 
-	page "draws and gulps"
-	next "down more than ten"
-	next "ounces of blood.@"
+	page "strong enough to"
+	next "reduce concrete to"
+	next "rubble.@"

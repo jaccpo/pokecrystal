@@ -1,11 +1,11 @@
-	db BELLOSSOM ; 182
+	db BELLOSSOM ; 182 Tropius
 
-	db  75,  80,  85,  50,  90, 100
+	db  114,  83,  88,  61,  87, 92 ; 510 BST
 	;   hp  atk  def  spd  sat  sdf
 
-	db GRASS, GRASS ; type
-	db 45 ; catch rate
-	db 184 ; base exp
+	db DRAGON, GRASS ; type
+	db 70 ; catch rate
+	db 195 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
@@ -17,5 +17,5 @@
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 
 	; tm/hm learnset
-	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, SWEET_SCENT, SNORE, HYPER_BEAM, PROTECT, GIGA_DRAIN, ENDURE, FRUSTRATION, SOLARBEAM, RETURN, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, REST, ATTRACT, CUT, FLASH
+	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, SWEET_SCENT, SNORE, HYPER_BEAM, PROTECT, GIGA_DRAIN, ENDURE, FRUSTRATION, SOLARBEAM, RETURN, DOUBLE_TEAM, HORN_DRILL, SLEEP_TALK, REST, ATTRACT, CUT, FLASH
 	; end

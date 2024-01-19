@@ -1,10 +1,10 @@
-	db "WATER FISH@" ; species name
-	dw 104, 190 ; height, weight
+	db "POISON FISH@" ; species name
+	dw 104, 240 ; height, weight
 
-	db   "A mucous"
-	next "membrane covers"
-	next "its body. Touching"
+	db   "It moved to land"
+	next "after losing a"
+	next "territorial"
 
-	page "it barehanded will"
-	next "cause a shooting"
-	next "pain.@"
+	page "struggle. A poi-"
+	next "sonous film pro-"
+	next "tects its body.@"

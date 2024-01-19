@@ -1,10 +1,10 @@
-	db "ATROCIOUS@" ; species name
-	dw 2104, 5180 ; height, weight
+	db "WHISKERS@" ; species name
+	dw 211, 520 ; height, weight
 
-	db   "It appears when-"
-	next "ever there is"
-	next "world conflict,"
+	db   "It claims a large"
+	next "swamp to itself."
+	next "If a foe comes"
 
-	page "burning down any"
-	next "place it travels"
-	next "through.@"
+	page "near it, it sets"
+	next "off tremors by"
+	next "thrashing around.@"

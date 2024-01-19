@@ -1,10 +1,10 @@
-	db "BAGWORM@" ; species name
-	dw 200, 160 ; height, weight
+	db "LONG NECK@" ; species name - Farigiraf
+	dw 1006, 3527 ; height, weight
 
-	db   "It spits out a"
-	next "fluid that it uses"
-	next "to glue tree bark"
+	db   "Now the brain"
+	next "waves from head"
+	next "and tail are"
 
-	page "to its body. The"
-	next "fluid hardens when"
-	next "it touches air.@"
+	page "synced, its psy-"
+	next "chic power is ten"
+	next "times stronger.@"

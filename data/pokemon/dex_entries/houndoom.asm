@@ -1,10 +1,10 @@
-	db "DARK@" ; species name
-	dw 407, 770 ; height, weight
+	db "FOX@" ; species name
+	dw 311, 439 ; height, weight
 
-	db   "The pungent-"
-	next "smelling flame"
-	next "that shoots from"
+	db   "With a lithe body"
+	next "and sharp claws,"
+	next "it stalks its"
 
-	page "its mouth results"
-	next "from toxins burn-"
-	next "ing in its body.@"
+	page "targets and robs"
+	next "them when they"
+	next "least expect it.@"

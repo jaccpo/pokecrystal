@@ -5,6 +5,6 @@
 	next "territory. If it"
 	next "detects an unknown"
 
-	page "smell, it roars"
+	page "smell, it ROARs"
 	next "loudly to force"
 	next "out the intruder.@"

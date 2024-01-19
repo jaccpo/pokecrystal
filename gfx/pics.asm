@@ -501,7 +501,6 @@ MewBackpic:          INCBIN "gfx/pokemon/mew/back.2bpp.lz"
 MachopBackpic:       INCBIN "gfx/pokemon/machop/back.2bpp.lz"
 AbraBackpic:         INCBIN "gfx/pokemon/abra/back.2bpp.lz"
 AerodactylBackpic:   INCBIN "gfx/pokemon/aerodactyl/back.2bpp.lz"
-KakunaFrontpic:      INCBIN "gfx/pokemon/kakuna/front.animated.2bpp.lz"
 DugtrioBackpic:      INCBIN "gfx/pokemon/dugtrio/back.2bpp.lz"
 WeepinbellBackpic:   INCBIN "gfx/pokemon/weepinbell/back.2bpp.lz"
 NidoranFBackpic:     INCBIN "gfx/pokemon/nidoran_f/back.2bpp.lz"
@@ -542,7 +541,6 @@ XatuBackpic:         INCBIN "gfx/pokemon/xatu/back.2bpp.lz"
 RedPic:              INCBIN "gfx/trainers/red.2bpp.lz"
 Porygon2Backpic:     INCBIN "gfx/pokemon/porygon2/back.2bpp.lz"
 JasminePic:          INCBIN "gfx/trainers/jasmine.2bpp.lz"
-PinecoBackpic:       INCBIN "gfx/pokemon/pineco/back.2bpp.lz"
 MetapodFrontpic:     INCBIN "gfx/pokemon/metapod/front.animated.2bpp.lz"
 SeelBackpic:         INCBIN "gfx/pokemon/seel/back.2bpp.lz"
 QuagsireBackpic:     INCBIN "gfx/pokemon/quagsire/back.2bpp.lz"
@@ -584,7 +582,6 @@ SECTION "Pics 17", ROMX
 
 ParasBackpic:        INCBIN "gfx/pokemon/paras/back.2bpp.lz"
 VaporeonBackpic:     INCBIN "gfx/pokemon/vaporeon/back.2bpp.lz"
-TentacoolBackpic:    INCBIN "gfx/pokemon/tentacool/back.2bpp.lz"
 ExecutivefPic:       INCBIN "gfx/trainers/executive_f.2bpp.lz"
 BulbasaurBackpic:    INCBIN "gfx/pokemon/bulbasaur/back.2bpp.lz"
 SmoochumBackpic:     INCBIN "gfx/pokemon/smoochum/back.2bpp.lz"
@@ -640,7 +637,6 @@ DratiniBackpic:      INCBIN "gfx/pokemon/dratini/back.2bpp.lz"
 ElectrodeBackpic:    INCBIN "gfx/pokemon/electrode/back.2bpp.lz"
 SkarmoryBackpic:     INCBIN "gfx/pokemon/skarmory/back.2bpp.lz"
 MetapodBackpic:      INCBIN "gfx/pokemon/metapod/back.2bpp.lz"
-JigglypuffBackpic:   INCBIN "gfx/pokemon/jigglypuff/back.2bpp.lz"
 OddishBackpic:       INCBIN "gfx/pokemon/oddish/back.2bpp.lz"
 UnownDBackpic:       INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
 
@@ -779,8 +775,12 @@ INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 ; but entries for their banks exist in FixPicBank (see engine/gfx/load_pics.asm).
 
 SECTION "Pics 20", ROMX
+JigglypuffBackpic:   INCBIN "gfx/pokemon/jigglypuff/back.2bpp.lz"
+PinecoBackpic:       INCBIN "gfx/pokemon/pineco/back.2bpp.lz"
 
 SECTION "Pics 21", ROMX
+KakunaFrontpic:      INCBIN "gfx/pokemon/kakuna/front.animated.2bpp.lz"
+TentacoolBackpic:    INCBIN "gfx/pokemon/tentacool/back.2bpp.lz"
 
 SECTION "Pics 22", ROMX
 

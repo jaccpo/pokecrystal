@@ -1,10 +1,10 @@
-	db "GOLDFISH@" ; species name
-	dw 403, 860 ; height, weight
+	db "NEON@" ; species name
+	dw 311, 529 ; height, weight
 
-	db   "When autumn comes,"
-	next "the males patrol"
-	next "the area around"
+	db   "It lives on the"
+	next "deep sea-floor. It"
+	next "attracts prey by"
 
-	page "their nests in"
-	next "order to protect"
-	next "their offspring.@"
+	page "flashing the pat-"
+	next "terns on its four"
+	next "tail fins.@"

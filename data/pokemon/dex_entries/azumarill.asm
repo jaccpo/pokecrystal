@@ -1,10 +1,9 @@
-	db "AQUARABBIT@" ; species name
-	dw 207, 630 ; height, weight
+	db "MOCK KELP@" ; species name
+	dw 511, 1797 ; height, weight
 
-	db   "The bubble-like"
-	next "pattern on its"
-	next "stomach helps it"
+	db   "Tales are told of"
+	next "ships that wander"
+	next "into seas where"
 
-	page "camouflage itself"
-	next "when it's in the"
-	next "water.@"
+	page "DRAGALGE live,"
+	next "never to return.@"

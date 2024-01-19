@@ -38,13 +38,13 @@ MoveEffectsPointers:
 	dw PayDay
 	dw LightScreen
 	dw TriAttack
-	dw NormalHit
+	dw Spatkuphit
 	dw OHKOHit
 	dw RazorWind
 	dw SuperFang
 	dw StaticDamage
 	dw TrapTarget
-	dw NormalHit
+	dw Sweetscent ; was copy of NormalHit
 	dw MultiHit
 	dw NormalHit
 	dw Mist
@@ -111,7 +111,7 @@ MoveEffectsPointers:
 	dw Nightmare
 	dw FlameWheel
 	dw Curse
-	dw NormalHit
+	dw Speeduphit ; was EFFECT_UNUSED_6E, copy of NormalHit
 	dw Protect
 	dw Spikes
 	dw Foresight
@@ -131,8 +131,8 @@ MoveEffectsPointers:
 	dw BatonPass
 	dw Pursuit
 	dw RapidSpin
-	dw NormalHit
-	dw NormalHit
+	dw Quiverdance
+	dw Bulkup
 	dw MorningSun
 	dw Synthesis
 	dw Moonlight
@@ -158,4 +158,13 @@ MoveEffectsPointers:
 	dw BeatUp
 	dw Fly
 	dw DefenseCurl
+	dw Flareblitz
+	dw Calmmind
+	dw Dragondance
+	dw Meditate
+	dw Coil
+	dw Toxichit
+	dw Gulpup
+	dw Hurricane
+	dw SuckerPunch
 	assert_table_length NUM_MOVE_EFFECTS

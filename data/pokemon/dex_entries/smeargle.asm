@@ -1,10 +1,10 @@
-	db "PAINTER@" ; species name
-	dw 311, 1280 ; height, weight
+	db "ALIEN@" ; species name
+	dw 408, 890 ; height, weight
 
-	db   "The color of the"
-	next "mysterious fluid"
-	next "secreted from its"
+	db   "It came crashing"
+	next "onto Earth during"
+	next "a meteor fall."
 
-	page "tail is predeter-"
-	next "mined for each"
-	next "SMEARGLE.@"
+	page "It spends its time"
+	next "meditating to ex-"
+	next "pand its mind.@"

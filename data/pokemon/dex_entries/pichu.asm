@@ -1,10 +1,10 @@
-	db "TINY MOUSE@" ; species name
-	dw 100, 40 ; height, weight
+	db "SEA URCHIN@" ; species name Pincurchin
+	dw 100, 22 ; height, weight
 
-	db   "It is unskilled at"
-	next "storing electric"
-	next "power. Any kind of"
+	db   "It stores electri-"
+	next "city in each spine"
+	next "and if one breaks,"
 
-	page "shock causes it to"
-	next "discharge energy"
-	next "spontaneously.@"
+	page "it keeps emitting"
+	next "electricity for at"
+	next "least three hours.@"

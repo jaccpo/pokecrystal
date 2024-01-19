@@ -1,10 +1,10 @@
-	db "AQUAMOUSE@" ; species name
-	dw 104, 190 ; height, weight
+	db "MOCK KELP@" ; species name
+	dw 108, 161 ; height, weight
 
-	db   "The fur on its"
-	next "body naturally"
-	next "repels water. It"
+	db   "It looks just like"
+	next "rotten kelp. It"
+	next "hides from foes"
 
-	page "can stay dry, even"
-	next "when it plays in"
-	next "the water.@"
+	page "while storing up"
+	next "power for its evo-"
+	next "lution.@"

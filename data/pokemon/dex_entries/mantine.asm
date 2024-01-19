@@ -1,10 +1,9 @@
-	db "KITE@" ; species name
-	dw 611, 4850 ; height, weight
+	db "RENDEZVOUS@" ; species name Luvdisc
+	dw 200, 192 ; height, weight
 
-	db   "It swims along"
-	next "freely, eating"
-	next "things that swim"
+	db   "It is said that"
+	next "couples who find"
+	next "that Pokémon will"
 
-	page "into its mouth."
-	next "Its whole body is"
-	next "very coarse.@"
+	page "be blessed with"
+	next "eternal love.@"

@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 303, 260 ; height, weight
+	db "PRIM@" ; species name - Delcatty
+	dw 307, 719 ; height, weight
 
-	db   "The rich, fluffy"
-	next "fur that covers"
-	next "its body feels so"
+	db   "It dislikes dirty"
+	next "places. It often"
+	next "searches for a"
 
-	page "good that anyone"
-	next "who feels it can't"
-	next "stop touching it.@"
+	page "comfortable place"
+	next "in which to groom"
+	next "itself.@"

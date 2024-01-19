@@ -1,10 +1,10 @@
-	db "GENETIC@" ; species name
-	dw 607, 2690 ; height, weight
+	db "ABOMINATION@" ; species name
+	dw 1050, 3870 ; height, weight
 
-	db   "Said to rest qui-"
-	next "etly in an"
-	next "undiscovered cave,"
+	db   "It was revived"
+	next "from the remains"
+	next "of an ancient"
 
-	page "this #MON was"
-	next "created solely for"
-	next "battling.@"
+	page "beast. Its return"
+	next "heralds doom upon"
+	next "the world.@"

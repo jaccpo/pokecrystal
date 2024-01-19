@@ -6,6 +6,7 @@
 	const LANDMARK_ROUTE_29          ; 02
 	const LANDMARK_CHERRYGROVE_CITY  ; 03
 	const LANDMARK_ROUTE_30          ; 04
+	const LANDMARK_EXPLORER_CAVE
 	const LANDMARK_ROUTE_31          ; 05
 	const LANDMARK_VIOLET_CITY       ; 06
 	const LANDMARK_SPROUT_TOWER      ; 07

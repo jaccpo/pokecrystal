@@ -1,10 +1,10 @@
-	db "VINE@" ; species name
-	dw 303, 770 ; height, weight
+	db "CACTUS@" ; species name - Maractus
+	dw 303, 617 ; height, weight
 
-	db   "During battle, it"
-	next "constantly moves"
-	next "the vines that"
+	db   "It uses an up-"
+	next "tempo song and"
+	next "dance to drive off"
 
-	page "cover its body in"
-	next "order to annoy its"
-	next "opponent.@"
+	page "bird Pokémon that"
+	next "prey on its flower"
+	next "seeds.@"

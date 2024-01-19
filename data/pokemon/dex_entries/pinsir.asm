@@ -1,10 +1,10 @@
-	db "STAGBEETLE@" ; species name
-	dw 411, 1210 ; height, weight
+	db "IRON ANT@" ; species name Durant
+	dw 100, 728 ; height, weight
 
-	db   "When the tempera-"
-	next "ture drops at"
-	next "night, it sleeps"
+	db   "They attack in"
+	next "groups, covering"
+	next "themselves in"
 
-	page "on treetops or"
-	next "among roots where"
-	next "it is well hidden.@"
+	page "steel armour to"
+	next "protect from"
+	next "HEATMOR.@"

@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 207, 660 ; height, weight
+	db "THUNDER@" ; species name elec2
+	dw 305, 1220 ; height, weight
 
-	db   "If its electric"
-	next "pouches run empty,"
-	next "it raises its tail"
+	db   "In spite of its"
+	next "short legs, it can"
+	next "pounce on its foe"
 
-	page "to gather electri-"
-	next "city from the"
-	next "atmosphere.@"
+	page "and bite it with"
+	next "its sharp elec-"
+	next "trifying fangs.@"

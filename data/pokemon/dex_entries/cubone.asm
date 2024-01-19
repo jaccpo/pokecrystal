@@ -1,10 +1,10 @@
-	db "LONELY@" ; species name
-	dw 104, 140 ; height, weight
+	db "SLY@" ; hidething
+	dw 134, 180 ; height, weight
 
-	db   "It lost its mother"
-	next "after its birth."
-	next "It wears its"
+	db   "It spends its life"
+	next "hiding in another"
+	next "#MON's fur."
 
-	page "mother's skull,"
-	next "never revealing"
-	next "its true face.@"
+	page "Its piercing eyes"
+	next "enable it to see"
+	next "in the dark.@"

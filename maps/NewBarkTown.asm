@@ -2,6 +2,7 @@
 	const NEWBARKTOWN_TEACHER
 	const NEWBARKTOWN_FISHER
 	const NEWBARKTOWN_RIVAL
+	const NEWBARKTOWN_POKE_BALL
 
 NewBarkTown_MapScripts:
 	def_scene_scripts
@@ -185,6 +186,9 @@ NewBarkTown_RivalShovesYouOutMovement:
 NewBarkTown_RivalReturnsToTheShadowsMovement:
 	step RIGHT
 	step_end
+	
+NewBarkTownTMHornDrill: ; +++
+	itemball TM_HORN_DRILL
 
 Text_GearIsImpressive:
 	text "Wow, your #GEAR"
@@ -302,3 +306,4 @@ NewBarkTown_MapEvents:
 	object_event  6,  8, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NewBarkTownTeacherScript, -1
 	object_event 12,  9, SPRITE_FISHER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, NewBarkTownFisherScript, -1
 	object_event  3,  2, SPRITE_RIVAL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NewBarkTownRivalScript, EVENT_RIVAL_NEW_BARK_TOWN
+	object_event  9, 5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, NewBarkTownTMHornDrill, EVENT_NEW_BARK_TOWN_TM_HORN_DRILL

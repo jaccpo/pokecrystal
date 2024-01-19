@@ -1,11 +1,11 @@
-	db WEEDLE ; 013
+	db WEEDLE ; 013 CASCOON
 
-	db  40,  35,  30,  50,  20,  20
+	db  55,  35,  60,  10,  20,  40 ; BST 220
 	;   hp  atk  def  spd  sat  sdf
 
-	db BUG, POISON ; type
-	db 255 ; catch rate
-	db 52 ; base exp
+	db BUG, BUG ; type
+	db 120 ; catch rate
+	db 75 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

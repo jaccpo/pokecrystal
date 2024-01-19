@@ -1,10 +1,10 @@
-	db "BIVALVE@" ; species name
-	dw 100, 90 ; height, weight
+	db "ICE CHUNK@" ; species name - Bergmite
+	dw 303, 2194 ; height, weight
 
-	db   "Clamping on to an"
-	next "opponent reveals"
-	next "its vulnerable"
+	db   "It blocks attacks"
+	next "with its ice"
+	next "shield. It uses"
 
-	page "parts, so it uses"
-	next "this move only as"
-	next "a last resort.@"
+	page "cold air to repair"
+	next "any cracks with"
+	next "new ice.@"

@@ -1,10 +1,10 @@
-	db "DARK@" ; species name
-	dw 200, 240 ; height, weight
+	db "FOX@" ; species name
+	dw 200, 196 ; height, weight
 
-	db   "Around dawn, its"
-	next "ominous howl"
-	next "echoes through the"
+	db   "Cunning, it sur-"
+	next "vives by stealing"
+	next "food from others."
 
-	page "area to announce"
-	next "that this is its"
-	next "territory.@"
+	page "It erases its"
+	next "tracks with swipes"
+	next "of its tail.@"

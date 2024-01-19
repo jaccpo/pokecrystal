@@ -1,10 +1,10 @@
-	db "HYPNOSIS@" ; species name
-	dw 303, 710 ; height, weight
+	db "BOUNCE@" ; species name
+	dw 204, 675 ; height, weight
 
-	db   "When it twitches"
-	next "its nose, it can"
-	next "tell where someone"
+	db   "It apparently dies"
+	next "if it stops boun-"
+	next "cing about. The"
 
-	page "is sleeping and"
-	next "what that person"
-	next "is dreaming about.@"
+	page "pearl on its head"
+	next "amplifies it psy-"
+	next "chic powers.@"

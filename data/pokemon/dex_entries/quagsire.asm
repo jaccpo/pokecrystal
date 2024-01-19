@@ -1,10 +1,10 @@
-	db "WATER FISH@" ; species name
-	dw 407, 1650 ; height, weight
+	db "SPINY FISH@" ; species name - Clodsire
+	dw 511, 4916 ; height, weight
 
-	db   "Its body is always"
-	next "slimy. It often"
-	next "bangs its head on"
+	db   "It lives at the"
+	next "bottom of ponds."
+	next "It carries Wooper"
 
-	page "the river bottom"
-	next "as it swims but"
-	next "seems not to care.@"
+	page "and ferries them"
+	next "across water from"
+	next "shore to shore.@"

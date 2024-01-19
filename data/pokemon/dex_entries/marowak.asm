@@ -1,10 +1,10 @@
-	db "BONEKEEPER@" ; species name
-	dw 303, 990 ; height, weight
+	db "SLY@" ; species name
+	dw 352, 880 ; height, weight
 
-	db   "Somewhere in the"
-	next "world is a ceme-"
-	next "tery just for"
+	db   "An exceptional"
+	next "hunter, it hides"
+	next "among dense herds"
 
-	page "MAROWAK. It gets"
-	next "its bones from"
-	next "those graves.@"
+	page "to ambush its un-"
+	next "suspecting victims"
+	next "with its claws.@"

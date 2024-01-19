@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 104, 180 ; height, weight
+	db "PUPPET@" ; species name - Shuppet
+	dw 200, 51 ; height, weight
 
-	db   "When they're in a"
-	next "safe location,"
-	next "they can be seen"
+	db   "It feeds on fee"
+	next "-lings like envy"
+	next "and malice. Its"
 
-	page "playfully tangling"
-	next "their tails"
-	next "together.@"
+	page "upright horn"
+	next "catches the emo-"
+	next "tions of people.@"

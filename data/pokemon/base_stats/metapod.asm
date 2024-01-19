@@ -1,11 +1,11 @@
 	db METAPOD ; 011
 
-	db  50,  20,  55,  30,  25,  25
+	db  50,  45,  50,  20,  25,  30 ; 220 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, BUG ; type
 	db 120 ; catch rate
-	db 72 ; base exp
+	db 75 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

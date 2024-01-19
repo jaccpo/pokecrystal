@@ -1,10 +1,10 @@
-	db "TRANSFORM@" ; species name
-	dw 100, 90 ; height, weight
+	db "RADIOACTIVE@" ; species name
+	dw 100, 22 ; height, weight
 
-	db   "When it encount-"
-	next "ers another DITTO,"
-	next "it will move"
+	db   "Trapped under-"
+	next "ground for a long"
+	next "time, it gradually"
 
-	page "faster than normal"
-	next "to duplicate that"
-	next "opponent exactly.@"
+	page "lost its vital"
+	next "spirit. Its body"
+	next "is highly toxic.@"

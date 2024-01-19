@@ -1,10 +1,10 @@
-	db "SPITFIRE@" ; species name
-	dw 403, 980 ; height, weight
+	db "ANTEATER@" ; species name Heatmor
+	dw 407, 1279 ; height, weight
 
-	db   "It moves more"
-	next "frequently in hot"
-	next "areas. It can heal"
+	db   "Using its flame-"
+	next "covered tongue,"
+	next "it burns through"
 
-	page "itself by dipping"
-	next "its wound into"
-	next "lava.@"
+	page "DURANT's steel"
+	next "body and consumes"
+	next "its insides.@"

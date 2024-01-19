@@ -9,23 +9,23 @@ PokemonNames::
 	db "SQUIRTLE@@"
 	db "WARTORTLE@"
 	db "BLASTOISE@"
-	db "CATERPIE@@"
-	db "METAPOD@@@"
-	db "BUTTERFREE"
-	db "WEEDLE@@@@"
-	db "KAKUNA@@@@"
-	db "BEEDRILL@@"
+	db "WURMPLE@@@" ; was Caterpie
+	db "SILCOON@@@" ; was Metapod
+	db "BEAUTIFLY@" ; was Butterfree
+	db "CASCOON@@@" ; was Weedle
+	db "DUSTOX@@@@" ; was Kakuna
+	db "MAWILE@@@@" ; was Beedrill
 	db "PIDGEY@@@@"
 	db "PIDGEOTTO@"
 	db "PIDGEOT@@@"
-	db "RATTATA@@@"
-	db "RATICATE@@"
+	db "ZIGZAGOON@" ; was Rattata
+	db "LINOONE@@@" ; was Raticate
 	db "SPEAROW@@@"
 	db "FEAROW@@@@"
 	db "EKANS@@@@@"
 	db "ARBOK@@@@@"
-	db "PIKACHU@@@"
-	db "RAICHU@@@@"
+	db "elec1@@@@@" ; was Pikachu
+	db "elec2@@@@@" ; was Raichu
 	db "SANDSHREW@"
 	db "SANDSLASH@"
 	db "NIDORAN♀@@"
@@ -38,12 +38,12 @@ PokemonNames::
 	db "CLEFABLE@@"
 	db "VULPIX@@@@"
 	db "NINETALES@"
-	db "JIGGLYPUFF"
-	db "WIGGLYTUFF"
-	db "ZUBAT@@@@@"
-	db "GOLBAT@@@@"
-	db "ODDISH@@@@"
-	db "GLOOM@@@@@"
+	db "SKITTY@@@@"
+	db "DELCATTY@@"
+	db "WOOBAT@@@@" ; was Zubat
+	db "SWOOBAT@@@" ; was Golbat
+	db "GOSSIFLEUR" ; was Oddish
+	db "ELDEGOSS@@" ; was Gloom
 	db "VILEPLUME@"
 	db "PARAS@@@@@"
 	db "PARASECT@@"
@@ -65,17 +65,17 @@ PokemonNames::
 	db "ABRA@@@@@@"
 	db "KADABRA@@@"
 	db "ALAKAZAM@@"
-	db "MACHOP@@@@"
-	db "MACHOKE@@@"
+	db "MIENFOO@@@" ; was Machop
+	db "MIENSHAO@@" ; was Machoke
 	db "MACHAMP@@@"
 	db "BELLSPROUT"
 	db "WEEPINBELL"
 	db "VICTREEBEL"
-	db "TENTACOOL@"
-	db "TENTACRUEL"
-	db "GEODUDE@@@"
-	db "GRAVELER@@"
-	db "GOLEM@@@@@"
+	db "PLACEHOLDR" ; Alt bellsprout evo form - was Tentacool
+	db "LICKI'EVO@" ; was Tentacruel
+	db "CHERUBI@@@" ; was Geodude
+	db "GHERRIM@@@" ; was Graveler
+	db "PETROTHORN" ; was Golem
 	db "PONYTA@@@@"
 	db "RAPIDASH@@"
 	db "SLOWPOKE@@"
@@ -87,24 +87,24 @@ PokemonNames::
 	db "DODRIO@@@@"
 	db "SEEL@@@@@@"
 	db "DEWGONG@@@"
-	db "GRIMER@@@@"
-	db "MUK@@@@@@@"
-	db "SHELLDER@@"
-	db "CLOYSTER@@"
+	db "GULPIN@@@@" ; was GRIMER
+	db "SWALOT@@@@" ; was MUK
+	db "BERGMITE@@" ; was Shellder
+	db "AVALUGG@@@" ; was Cloyster
 	db "GASTLY@@@@"
 	db "HAUNTER@@@"
 	db "GENGAR@@@@"
-	db "ONIX@@@@@@"
-	db "DROWZEE@@@"
-	db "HYPNO@@@@@"
+	db "TURBAN@@@@" ; Turban
+	db "SPOINK@@@@" ; was Drowzee
+	db "GRUMPIG@@@" ; was Hypno
 	db "KRABBY@@@@"
 	db "KINGLER@@@"
 	db "VOLTORB@@@"
 	db "ELECTRODE@"
-	db "EXEGGCUTE@"
-	db "EXEGGUTOR@"
-	db "CUBONE@@@@"
-	db "MAROWAK@@@"
+	db "CHINGLING@" ; was Exeggcute
+	db "CHIMECHO@@" ; was Exeggutor
+	db "BETAHIDE@@" ; was Cubone
+	db "BETAHIDE2@" ; was Marowak
 	db "HITMONLEE@"
 	db "HITMONCHAN"
 	db "LICKITUNG@"
@@ -113,25 +113,25 @@ PokemonNames::
 	db "RHYHORN@@@"
 	db "RHYDON@@@@"
 	db "CHANSEY@@@"
-	db "TANGELA@@@"
+	db "MARACTUS@@"
 	db "KANGASKHAN"
-	db "HORSEA@@@@"
-	db "SEADRA@@@@"
-	db "GOLDEEN@@@"
-	db "SEAKING@@@"
+	db "SHUPPET@@@" ; was Horsea
+	db "BANETTE@@@" ; was Seadra
+	db "FINNEON@@@" ; was Goldeen
+	db "LUMINEON@@" ; was Seaking
 	db "STARYU@@@@"
 	db "STARMIE@@@"
-	db "MR.MIME@@@"
+	db "MIGAWARI@@" ; was Mr Mime
 	db "SCYTHER@@@"
 	db "JYNX@@@@@@"
-	db "ELECTABUZZ"
-	db "MAGMAR@@@@"
-	db "PINSIR@@@@"
-	db "TAUROS@@@@"
-	db "MAGIKARP@@"
-	db "GYARADOS@@"
+	db "STUNFISK@@" ; was Electabuzz
+	db "HEATMOR@@@" ; was Magmar
+	db "DURANT@@@@" ; was Pinsir
+	db "SUNNY@@@@@" ; was Tauros
+	db "BARBOACH@@" ; was Magikarp
+	db "WHISCASH@@" ; was Gyarados
 	db "LAPRAS@@@@"
-	db "DITTO@@@@@"
+	db "DITTO@@@@@" 
 	db "EEVEE@@@@@"
 	db "VAPOREON@@"
 	db "JOLTEON@@@"
@@ -141,7 +141,7 @@ PokemonNames::
 	db "OMASTAR@@@"
 	db "KABUTO@@@@"
 	db "KABUTOPS@@"
-	db "AERODACTYL"
+	db "TROPIUS@@@" ; was Aerodactyl
 	db "SNORLAX@@@"
 	db "ARTICUNO@@"
 	db "ZAPDOS@@@@"
@@ -149,7 +149,7 @@ PokemonNames::
 	db "DRATINI@@@"
 	db "DRAGONAIR@"
 	db "DRAGONITE@"
-	db "MEWTWO@@@@"
+	db "PLACEHOLDR" ; was Mewtwo
 	db "MEW@@@@@@@"
 	db "CHIKORITA@"
 	db "BAYLEEF@@@"
@@ -157,9 +157,9 @@ PokemonNames::
 	db "CYNDAQUIL@"
 	db "QUILAVA@@@"
 	db "TYPHLOSION"
-	db "TOTODILE@@"
-	db "CROCONAW@@"
-	db "FERALIGATR"
+	db "BETAWATER1"
+	db "BETAWATER2"
+	db "BETAWATER3"
 	db "SENTRET@@@"
 	db "FURRET@@@@"
 	db "HOOTHOOT@@"
@@ -171,7 +171,7 @@ PokemonNames::
 	db "CROBAT@@@@"
 	db "CHINCHOU@@"
 	db "LANTURN@@@"
-	db "PICHU@@@@@"
+	db "PINCURCHIN"
 	db "CLEFFA@@@@"
 	db "IGGLYBUFF@"
 	db "TOGEPI@@@@"
@@ -182,8 +182,8 @@ PokemonNames::
 	db "FLAAFFY@@@"
 	db "AMPHAROS@@"
 	db "BELLOSSOM@"
-	db "MARILL@@@@"
-	db "AZUMARILL@"
+	db "SKRELP@@@@" ; was Marill
+	db "DRAGALGE@@" ; was Azu
 	db "SUDOWOODO@"
 	db "POLITOED@@"
 	db "HOPPIP@@@@"
@@ -194,20 +194,20 @@ PokemonNames::
 	db "SUNFLORA@@"
 	db "YANMA@@@@@"
 	db "WOOPER@@@@"
-	db "QUAGSIRE@@"
+	db "CLODSIRE@@" ; was Quag
 	db "ESPEON@@@@"
 	db "UMBREON@@@"
 	db "MURKROW@@@"
 	db "SLOWKING@@"
 	db "MISDREAVUS"
 	db "UNOWN@@@@@"
-	db "WOBBUFFET@"
+	db "GARGONAUT@" ; was Wobbuffet
 	db "GIRAFARIG@"
-	db "PINECO@@@@"
-	db "FORRETRESS"
+	db "FARIGIRAF@"
+	db "PLANTROCK@" ; Placeholder name - was FORRETRESS
 	db "DUNSPARCE@"
-	db "GLIGAR@@@@"
-	db "STEELIX@@@"
+	db "SOCKFOX@@@" ; Placeholder name - was Gligar
+	db "RELICANTH@" ; was Steelix
 	db "SNUBBULL@@"
 	db "GRANBULL@@"
 	db "QWILFISH@@"
@@ -219,29 +219,29 @@ PokemonNames::
 	db "URSARING@@"
 	db "SLUGMA@@@@"
 	db "MAGCARGO@@"
-	db "SWINUB@@@@"
-	db "PILOSWINE@"
+	db "AMAURA@@@@" ; was Swinub
+	db "AURORUS@@@" ; was Piloswine
 	db "CORSOLA@@@"
 	db "REMORAID@@"
 	db "OCTILLERY@"
 	db "DELIBIRD@@"
-	db "MANTINE@@@"
+	db "LUVDISC@@@" ; was Mantine
 	db "SKARMORY@@"
-	db "HOUNDOUR@@"
-	db "HOUNDOOM@@"
-	db "KINGDRA@@@"
-	db "PHANPY@@@@"
-	db "DONPHAN@@@"
-	db "PORYGON2@@"
+	db "NICKIT@@@@" ; was Houndour
+	db "THIEVUL@@@" ; was Houndoom
+	db "DRUDDIGON@" ; was Kingdra
+	db "TRUNKLET@@" ; was Phanpy
+	db "TUSKTON@@@" ; was Donphan
+	db "PORYGON-X@" ; was Porygon2
 	db "STANTLER@@"
-	db "SMEARGLE@@"
-	db "TYROGUE@@@"
+	db "GORK@@@@@@" ; Temporary name - was Smeargle
+	db "CURSOLA@@@" ; was Tyrogue
 	db "HITMONTOP@"
 	db "SMOOCHUM@@"
 	db "ELEKID@@@@"
-	db "MAGBY@@@@@"
+	db "SEARLION@@" ; was Magby
 	db "MILTANK@@@"
-	db "BLISSEY@@@"
+	db "DRAMPA@@@@" ; was Blissey
 	db "RAIKOU@@@@"
 	db "ENTEI@@@@@"
 	db "SUICUNE@@@"

@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
-	dw 411, 1550 ; height, weight
+	db "MARTIAL ARTS@" ; species name
+	dw 407, 783 ; height, weight
 
-	db   "This tough #MON"
-	next "always stays in"
-	next "the zone. Its"
+	db   "They use the long"
+	next "fur on their arms"
+	next "as a whip to"
 
-	page "muscles become"
-	next "thicker after"
-	next "every battle.@"
+	page "strike their oppo-"
+	next "nents very quick-"
+	next "ly.@"
