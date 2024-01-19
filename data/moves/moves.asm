@@ -135,7 +135,7 @@ Moves:
 	move MIRROR_MOVE,  EFFECT_MIRROR_MOVE,         0, FLYING,        STATUS,   100, 20,   0
 	move SELFDESTRUCT, EFFECT_PRIORITY_HIT,       40, ICE,           PHYSICAL, 100, 30,   0 ; Ice Shard
 	move EGG_BOMB,     EFFECT_NORMAL_HIT,        100, NORMAL,        PHYSICAL,  95, 10,   0 ; For birbs
-	move LICK,         EFFECT_PARALYZE_HIT,       135, GHOST,         SPECIAL,  100, 30,  30 ; ***
+	move LICK,         EFFECT_PARALYZE_HIT,       35, GHOST,         SPECIAL,  100, 30,  30 ; ***
 	move SMOG,         EFFECT_POISON_HIT,         40, POISON,        SPECIAL,  100, 30,  30 ; ***
 	move SLUDGE,       EFFECT_POISON_HIT,         65, POISON,        SPECIAL,  100, 20,  30 ; ***
 	move BONE_CLUB,    EFFECT_SPEED_DOWN_HIT,     60, GROUND,        SPECIAL,  100, 15, 100 ; Mud Shot
