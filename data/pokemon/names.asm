@@ -33,7 +33,7 @@ PokemonNames::
 	db "NIDOQUEEN@"
 	db "NIDORAN♂@@"
 	db "NIDORINO@@"
-	db "NIDOKING@@"
+	db "NIDOREIGN@" ; TEMP - Was Nidoking
 	db "CLEFAIRY@@"
 	db "CLEFABLE@@"
 	db "VULPIX@@@@"

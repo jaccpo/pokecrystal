@@ -35,7 +35,7 @@ MonMenuIcons:
 	db ICON_MONSTER     ; NIDOQUEEN
 	db ICON_FOX         ; NIDORAN_M
 	db ICON_FOX         ; NIDORINO
-	db ICON_MONSTER     ; NIDOKING
+	db ICON_FOX         ; NIDOREIGN
 	db ICON_CLEFAIRY    ; CLEFAIRY
 	db ICON_CLEFAIRY    ; CLEFABLE
 	db ICON_FOX         ; VULPIX

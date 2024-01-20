@@ -446,7 +446,6 @@ NidoqueenEvosAttacks:
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:
-	db EVOLVE_LEVEL, 16, NIDORINO
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, TACKLE
@@ -459,7 +458,6 @@ NidoranMEvosAttacks:
 	db 0 ; no more level-up moves
 
 NidorinoEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, NIDOKING
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, TACKLE
@@ -471,13 +469,19 @@ NidorinoEvosAttacks:
 	db 46, HORN_DRILL
 	db 0 ; no more level-up moves
 
-NidokingEvosAttacks:
+NidokingEvosAttacks: ; Nidoreign
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, HORN_ATTACK
-	db 1, DOUBLE_KICK
-	db 1, POISON_STING
-	db 23, THRASH
+	db 1, GROWL
+	db 1, ROCK_THROW
+	db 1, FURY_ATTACK
+	db 25 BITE
+	db 30 DOUBLE_KICK
+	db 35 BODY_SLAM
+	db 40 ROCK_SLIDE
+	db 45 ANCIENTPOWER
+	db 50 FORESIGHT ; Stone Edge
+	db 55 DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 ClefairyEvosAttacks:
@@ -1796,7 +1800,7 @@ LaprasEvosAttacks:
 
 DittoEvosAttacks: ; GhostIce
 	db 0 ; no more evolutions
-	db 1, LICK
+	db 1, MEGA_KICK ; (LICK)
 	db 1, DEFENSE_CURL
 	db 1, WATER_GUN
 	db 1, SMOG
