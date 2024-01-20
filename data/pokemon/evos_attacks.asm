@@ -475,13 +475,13 @@ NidokingEvosAttacks: ; Nidoreign
 	db 1, GROWL
 	db 1, ROCK_THROW
 	db 1, FURY_ATTACK
-	db 25 BITE
-	db 30 DOUBLE_KICK
-	db 35 BODY_SLAM
-	db 40 ROCK_SLIDE
-	db 45 ANCIENTPOWER
-	db 50 FORESIGHT ; Stone Edge
-	db 55 DOUBLE_EDGE
+	db 25, BITE
+	db 30, DOUBLE_KICK
+	db 35, BODY_SLAM
+	db 40, ROCK_SLIDE
+	db 45, ANCIENTPOWER
+	db 50, FORESIGHT ; Stone Edge
+	db 55, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 ClefairyEvosAttacks:
