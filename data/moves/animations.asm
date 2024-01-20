@@ -903,17 +903,24 @@ BattleAnim_RollingKick: ; Sucker Punch
 
 BattleAnim_MegaKick:
 	anim_1gfx ANIM_GFX_HIT
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $40, $2, $0
-	anim_wait 67
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $3
-.loop
+	anim_call BattleAnim_TargetObj_2Row
+	anim_bgeffect ANIM_BG_TACKLE, $0, BG_EFFECT_USER, $0
+	anim_sound 0, 1, SFX_MENU
+	anim_wait 7
+	anim_call BattleAnim_ShowMon_0
+	anim_sound 0, 1, SFX_MEGA_PUNCH
+	anim_obj ANIM_OBJ_KICK, 120, 72, $0
+	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 120, 72, $0
+	anim_wait 6
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_Y, $25, $3, $20
 	anim_sound 0, 1, SFX_MEGA_KICK
 	anim_obj ANIM_OBJ_KICK, 136, 56, $0
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
 	anim_wait 6
-	anim_obj ANIM_OBJ_KICK, 136, 56, $0
-	anim_wait 6
-	anim_loop 3, .loop
+	anim_sound 0, 1, SFX_BEAT_UP
+	anim_obj ANIM_OBJ_KICK, 152, 40, $0
+	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 152, 40, $0
+	anim_wait 17
 	anim_ret
 
 BattleAnim_HyperFang: ; Poison Fang - Thanks Grate Oracle Lewot for pointing me to clearobjs
@@ -3321,6 +3328,7 @@ BattleAnim_Strength: ; Updated
 	anim_bgeffect ANIM_BG_TACKLE, $0, BG_EFFECT_USER, $0
 	anim_sound 0, 1, SFX_MENU
 	anim_wait 7
+	anim_call BattleAnim_ShowMon_0
 	anim_sound 0, 1, SFX_MOVE_PUZZLE_PIECE
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 120, 72, $0
 	anim_wait 6
@@ -3331,7 +3339,6 @@ BattleAnim_Strength: ; Updated
 	anim_sound 0, 1, SFX_MEGA_PUNCH
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 152, 40, $0
 	anim_wait 17
-	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
 BattleAnim_SwordsDance:
