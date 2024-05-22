@@ -1295,24 +1295,24 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, DITTO
-	db 10, DITTO
-	db 10, DITTO
+	db 10, SLUGMA
+	db 10, SLUGMA
+	db 10, SLUGMA
 	db 3, TANGELA
 	db 2, ONIX
 	db 3, ONIX
 	db 3, ONIX
 	; day
-	db 10, DITTO
-	db 10, DITTO
-	db 10, DITTO
+	db 10, SLUGMA
+	db 10, SLUGMA
+	db 10, SLUGMA
 	db 3, JIGGLYPUFF
 	db 2, JIGGLYPUFF
-	db 3, HOPPIP
-	db 3, HOPPIP
+	db 3, SLUGMA
+	db 3, SLUGMA
 	; nite
-	db 10, DITTO
-	db 10, DITTO
+	db 10, SLUGMA
+	db 10, SLUGMA
 	db 10, WIGGLYTUFF
 	db 3, JIGGLYPUFF
 	db 2, JIGGLYPUFF
@@ -1328,16 +1328,16 @@ JohtoGrassWildMons:
 	db 4, WEEDLE
 	db 4, PIDGEY
 	db 3, WEEDLE
-	db 4, HOPPIP
-	db 4, HOPPIP
+	db 4, SLUGMA
+	db 4, SLUGMA
 	; day
 	db 3, PIDGEY
 	db 3, WEEDLE
 	db 4, WEEDLE
 	db 4, PIDGEY
 	db 3, WEEDLE
-	db 4, HOPPIP
-	db 4, HOPPIP
+	db 4, SLUGMA
+	db 4, SLUGMA
 	; nite
 	db 3, SPINARAK
 	db 3, HOOTHOOT
@@ -1356,16 +1356,16 @@ JohtoGrassWildMons:
 	db 5, BELLSPROUT
 	db 5, PIDGEY
 	db 4, WEEDLE
-	db 5, HOPPIP
-	db 5, HOPPIP
+	db 5, SLUGMA
+	db 5, SLUGMA
 	; day
 	db 4, PIDGEY
 	db 4, WEEDLE
 	db 5, BELLSPROUT
 	db 5, PIDGEY
 	db 4, WEEDLE
-	db 5, HOPPIP
-	db 5, HOPPIP
+	db 5, SLUGMA
+	db 5, SLUGMA
 	; nite
 	db 4, SPINARAK
 	db 4, POLIWAG
@@ -1382,18 +1382,18 @@ JohtoGrassWildMons:
 	db 4, EKANS
 	db 5, PORYGON2
 	db 7, BELLSPROUT
-	db 6, HOPPIP
+	db 6, SLUGMA
 	db 7, PIDGEY
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, SLUGMA
+	db 7, SLUGMA
 	; day
 	db 4, EKANS
 	db 5, PORYGON2
 	db 7, BELLSPROUT
-	db 6, HOPPIP
+	db 6, SLUGMA
 	db 7, PIDGEY
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, SLUGMA
+	db 7, SLUGMA
 	; nite
 	db 4, WOOPER
 	db 5, PORYGON2
@@ -1410,18 +1410,18 @@ JohtoGrassWildMons:
 	db 6, PORYGON2
 	db 6, SPEAROW
 	db 6, TENTACRUEL
-	db 6, HOPPIP
+	db 6, SLUGMA
 	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, SLUGMA
+	db 7, SLUGMA
 	; day
 	db 6, PORYGON2
 	db 6, SPEAROW
 	db 6, TENTACRUEL
-	db 6, HOPPIP
+	db 6, SLUGMA
 	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, SLUGMA
+	db 7, SLUGMA
 	; nite
 	db 6, PORYGON2
 	db 6, TENTACRUEL

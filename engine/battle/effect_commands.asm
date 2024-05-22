@@ -3324,6 +3324,9 @@ INCLUDE "engine/battle/move_effects/sketch.asm"
 
 INCLUDE "engine/battle/move_effects/sucker_punch.asm"
 
+INCLUDE "engine/battle/move_effects/subfun.asm"
+
+
 BattleCommand_DefrostOpponent:
 ; Thaw the opponent if frozen, and
 ; raise the user's Attack one stage.

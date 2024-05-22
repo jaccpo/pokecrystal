@@ -1,10 +1,10 @@
-	db "LAVA@" ; species name
+	db "TOXIC SLUG@" ; species name
 	dw 204, 770 ; height, weight
 
-	db   "These group to-"
-	next "gether in areas"
-	next "that are hotter"
+	db   "Its body is made"
+	next "of toxic waste."
+	next "It is able to melt"
 
-	page "than normal. If it"
-	next "cools off, its"
-	next "skin hardens.@"
+	page "down in an instant"
+	next "to retreat under-"
+	next "ground.@"

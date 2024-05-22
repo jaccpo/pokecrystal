@@ -1,11 +1,11 @@
 	db SLUGMA ; 218
 
-	db  45,  40,  60,  30,  70,  40 ; *** +5 hp, +20 def, + 10 spe
+	db  45,  40,  65,  40,  75,  65 ; 330
 	;   hp  atk  def  spe  sat  spdef
 
-	db FIRE, FIRE ; type
+	db POISON, POISON ; type
 	db 190 ; catch rate
-	db 82 ; base exp
+	db 85 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

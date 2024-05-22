@@ -666,8 +666,8 @@ VenomothEvosAttacks:
 	db 52, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-DiglettEvosAttacks:
-	db EVOLVE_LEVEL, 26, DUGTRIO
+DiglettEvosAttacks: ; Wiglett
+	db EVOLVE_LEVEL, 2, DUGTRIO
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 5, GROWL
@@ -679,7 +679,7 @@ DiglettEvosAttacks:
 	db 49, FISSURE
 	db 0 ; no more level-up moves
 
-DugtrioEvosAttacks:
+DugtrioEvosAttacks: ; Wugtrio
 	db 0 ; no more evolutions
 	db 1, TRI_ATTACK
 	db 1, SCRATCH
@@ -1344,7 +1344,7 @@ KinglerEvosAttacks:
 	db 49, CRABHAMMER
 	db 0 ; no more level-up moves
 
-VoltorbEvosAttacks:
+VoltorbEvosAttacks: ; To do
 	db EVOLVE_LEVEL, 3, ELECTRODE
 	db 0 ; no more evolutions
 	db 1, TACKLE
@@ -1358,7 +1358,7 @@ VoltorbEvosAttacks:
 	db 41, MIRROR_COAT
 	db 0 ; no more level-up moves
 
-ElectrodeEvosAttacks:
+ElectrodeEvosAttacks: ; To do
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SCREECH
@@ -1438,19 +1438,13 @@ MarowakEvosAttacks:
 	db 51, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-HitmonleeEvosAttacks:
+HitmonleeEvosAttacks: ; Flamigo - to complete
 	db 0 ; no more evolutions
+	db 1, PECK
 	db 1, DOUBLE_KICK
-	db 6, MEDITATE
-	db 11, ROLLING_KICK
-	db 16, JUMP_KICK
-	db 21, FOCUS_ENERGY
-	db 26, HI_JUMP_KICK
-	db 31, MIND_READER
-	db 36, FORESIGHT
-	db 41, ENDURE
-	db 46, MEGA_KICK
-	db 51, REVERSAL
+	db 1, PROTECT
+	db 1, FOCUS_ENERGY
+	db 21, WING_ATTACK
 	db 0 ; no more level-up moves
 
 HitmonchanEvosAttacks:
@@ -1659,7 +1653,7 @@ StarmieEvosAttacks:
 
 MrMimeEvosAttacks: ; Migawari
 	db 0 ; no more evolutions
-	db 1,  FUTURE_SIGHT ; electroweb
+	db 1,  TELEPORT ; electroweb
 	db 11,  HARDEN
 	db 11,  PROTECT
 	db 16, CHARM
@@ -1679,7 +1673,7 @@ MrMimeEvosAttacks: ; Migawari
 ScytherEvosAttacks: ; Buu
 	db EVOLVE_TRADE, METAL_COAT, SCIZOR
 	db 0 ; no more evolutions
-	db 1, POUND
+	db 1, TACKLE
 	db 1, LEER
 	db 1, POWDER_SNOW
 	db 1, PURSUIT
@@ -2534,22 +2528,23 @@ PolitoedEvosAttacks:
 	db 51, SWAGGER
 	db 0 ; no more level-up moves
 
-HoppipEvosAttacks:
-	db EVOLVE_LEVEL, 18, SKIPLOOM
+HoppipEvosAttacks: ; CAPSAKID
+	db EVOLVE_LEVEL, 2, SKIPLOOM
 	db 0 ; no more evolutions
-	db 1, SPLASH
-	db 5, SYNTHESIS
-	db 5, TAIL_WHIP
-	db 10, TACKLE
-	db 13, POISONPOWDER
-	db 15, STUN_SPORE
-	db 17, SLEEP_POWDER
-	db 20, LEECH_SEED
-	db 25, COTTON_SPORE
-	db 30, MEGA_DRAIN
+	db 1, BITE
+	db 1, LEER
+	db 1, VINE_WHIP
+	db 10, GROWTH
+	db 13, RAZOR_LEAF
+	db 17, SUNNY_DAY
+	db 22, LEECH_SEED
+	db 27, SONICBOOM ; Zen Headbutt
+	db 32, CRUNCH
+	db 38, BIND ; Seed Bomb
+	db 45, SOLARBEAM
 	db 0 ; no more level-up moves
 
-SkiploomEvosAttacks:
+SkiploomEvosAttacks: ; Scovillain
 	db EVOLVE_LEVEL, 27, JUMPLUFF
 	db 0 ; no more evolutions
 	db 1, SPLASH
@@ -2954,30 +2949,26 @@ UrsaringEvosAttacks:
 	db 0 ; no more level-up moves
 
 SlugmaEvosAttacks:
-	db EVOLVE_LEVEL, 38, MAGCARGO
+	db EVOLVE_LEVEL, 3, MAGCARGO ; CHANGE EVO LEVEL
 	db 0 ; no more evolutions
-	db 1, SMOG
-	db 8, EMBER
-	db 15, ROCK_THROW
-	db 22, HARDEN
-	db 29, AMNESIA
-	db 36, FLAMETHROWER
-	db 43, ROCK_SLIDE
-	db 50, BODY_SLAM
+	db 1, EARTHQUAKE ; SMOG
+	db 1, LICK
+	db 1, GROWL
+	db 15, ABSORB
+	db 19, ACID
+	db 24, ACID_ARMOR
+	db 29, SLUDGE
+	db 34, MEGA_DRAIN
+	db 39, SLUDGE_BOMB
+	db 44, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 MagcargoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SMOG
-	db 1, EMBER
-	db 1, ROCK_THROW
-	db 8, EMBER
-	db 15, ROCK_THROW
-	db 22, HARDEN
-	db 29, AMNESIA
-	db 36, FLAMETHROWER
-	db 48, ROCK_SLIDE
-	db 60, BODY_SLAM
+	db 1, ACID
+	db 1, ABSORB
+	db 1, ACID_ARMOR
+	db 1, BODY_SLAM
 	db 0 ; no more level-up moves
 
 SwinubEvosAttacks: ; Amaura

@@ -1,9 +1,9 @@
-	db VOLTORB ; 100 Hisuian
+	db VOLTORB ; 100 Regular
 
-	db  40,  35,  50, 100,  55,  55 ; +5 ATK
+	db  40,  40,  50, 100,  60,  55 ; 345 BST - +5 Sp. Atk, +10 Atk
 	;   hp  atk  def  spd  sat  sdf
 
-	db ELECTRIC, GRASS ; type
+	db ELECTRIC, ELECTRIC ; type
 	db 190 ; catch rate
 	db 104 ; base exp
 	db NO_ITEM, NO_ITEM ; items

@@ -99,7 +99,7 @@ MoveNames::
 	li "AGILITY"
 	li "QUICK ATTACK"
 	li "X-SCISSOR" ; was Rage
-	li "TELEPORT"
+	li "BLIGHT COVER" ; was Teleport
 	li "NIGHT SHADE"
 	li "MOONBLAST" ; was Mimic
 	li "SCREECH"

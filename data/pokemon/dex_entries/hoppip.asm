@@ -1,10 +1,10 @@
-	db "COTTONWEED@" ; species name
-	dw 104, 10 ; height, weight
+	db "SPICY PEPPER@" ; species name
+	dw 100, 66 ; height, weight
 
-	db   "It can be carried"
-	next "away on even the"
-	next "gentlest breeze."
+	db   "The more sunlight"
+	next "it bathes in, the"
+	next "more spicy chemi-"
 
-	page "It may even float"
-	next "all the way to the"
-	next "next town.@"
+	page "cals are produced,"
+	next "making its moves"
+	next "even spicier.@"

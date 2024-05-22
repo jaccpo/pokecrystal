@@ -1,11 +1,11 @@
-	db TAUROS ; 128 Pachirisu
+	db TAUROS ; 128 Sunny
 
 	db  74,  74,  74,  74,  74,  74 ; *** 444 
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
-	db 150 ; catch rate
-	db 124 ; base exp
+	db 130 ; catch rate
+	db 127 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

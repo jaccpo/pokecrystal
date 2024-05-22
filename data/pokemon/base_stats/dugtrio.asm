@@ -1,9 +1,9 @@
-	db DUGTRIO ; 051
+	db DUGTRIO ; 051 ; WUG
 
-	db  35,  80,  50, 120,  50,  70
+	db  45,  100,  55, 120,  50,  70 ; 440
 	;   hp  atk  def  spd  sat  sdf
 
-	db GROUND, GROUND ; type
+	db WATER, WATER ; type
 	db 50 ; catch rate
 	db 153 ; base exp
 	db NO_ITEM, NO_ITEM ; items

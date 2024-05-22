@@ -48,7 +48,7 @@ Moves:
 	move HORN_DRILL,   EFFECT_LEECH_HIT,          75, FIGHTING,      PHYSICAL, 100, 10,   0 ; Drain Punch
 	move TACKLE,       EFFECT_NORMAL_HIT,         40, NORMAL,        PHYSICAL,  95, 35,   0
 	move BODY_SLAM,    EFFECT_PARALYZE_HIT,       85, NORMAL,        PHYSICAL, 100, 15,  30
-	move WRAP,         EFFECT_TRAP_TARGET,        20, NORMAL,        PHYSICAL, 100, 20,   0 ; 100% accuracy
+	move WRAP,         EFFECT_TRAP_TARGET,        30, NORMAL,        PHYSICAL, 100, 20,   0 ; 30, 100% accuracy
 	move TAKE_DOWN,    EFFECT_SP_ATK_DOWN_HIT,    50, BUG,           SPECIAL,  100, 20, 100 ; Struggle Bug
 	move THRASH,       EFFECT_SP_ATK_DOWN_HIT,    55, DARK,          SPECIAL,   95, 15, 100 ; Snarl 
 	move DOUBLE_EDGE,  EFFECT_RECOIL_HIT,        120, NORMAL,        PHYSICAL, 100, 15,   0
@@ -113,7 +113,7 @@ Moves:
 	move AGILITY,      EFFECT_SPEED_UP_2,          0, PSYCHIC_TYPE,  STATUS,   100, 30,   0
 	move QUICK_ATTACK, EFFECT_PRIORITY_HIT,       40, NORMAL,        PHYSICAL, 100, 30,   0
 	move RAGE,         EFFECT_NORMAL_HIT,         85, BUG,           PHYSICAL, 100, 15,   0 ; X-Scissor
-	move TELEPORT,     EFFECT_TELEPORT,            0, PSYCHIC_TYPE,  STATUS,   100, 20,   0 ;
+	move TELEPORT,     EFFECT_SUBFUN,              0, CURSE_TYPE,    STATUS,   100, 10,   0 ; Miga stuff - TF
 	move NIGHT_SHADE,  EFFECT_LEVEL_DAMAGE,        1, GHOST,         SPECIAL,  100, 15,   0
 	move MIMIC,        EFFECT_SP_DEF_DOWN_HIT,    90, FAIRY,         SPECIAL,  100, 15,  30 ; *** Moonblast
 	move SCREECH,      EFFECT_DEFENSE_DOWN_2,      0, NORMAL,        STATUS,   100, 30,   0 ; *** 30 PP
@@ -136,7 +136,7 @@ Moves:
 	move SELFDESTRUCT, EFFECT_PRIORITY_HIT,       40, ICE,           PHYSICAL, 100, 30,   0 ; Ice Shard
 	move EGG_BOMB,     EFFECT_NORMAL_HIT,        100, NORMAL,        PHYSICAL,  95, 10,   0 ; For birbs
 	move LICK,         EFFECT_PARALYZE_HIT,       35, GHOST,         SPECIAL,  100, 30,  30 ; ***
-	move SMOG,         EFFECT_POISON_HIT,         40, POISON,        SPECIAL,  100, 30,  30 ; ***
+	move SMOG,         EFFECT_POISON_HIT,         40, POISON,        SPECIAL,  100, 25,  30 ; ***
 	move SLUDGE,       EFFECT_POISON_HIT,         65, POISON,        SPECIAL,  100, 20,  30 ; ***
 	move BONE_CLUB,    EFFECT_SPEED_DOWN_HIT,     60, GROUND,        SPECIAL,  100, 15, 100 ; Mud Shot
 	move FIRE_BLAST,   EFFECT_BURN_HIT,          110, FIRE,          SPECIAL,   85,  5,  10
@@ -164,7 +164,7 @@ Moves:
 	move FLASH,        EFFECT_PRIORITY_HIT,       40, STEEL,         SPECIAL,  100, 20,   0 ; ***
 	move PSYWAVE,      EFFECT_PSYWAVE,             1, PSYCHIC_TYPE,  SPECIAL,  100, 15,   0 ; Fire Lash ?
 	move SPLASH,       EFFECT_DRAGONDANCE,         0, DRAGON,        STATUS,   100, 20, 100 ; Dragon Dance
-	move ACID_ARMOR,   EFFECT_DEFENSE_UP_2,        0, POISON,        STATUS,   100, 40,   0
+	move ACID_ARMOR,   EFFECT_DEFENSE_UP_2,        0, POISON,        STATUS,   100, 20,   0
 	move CRABHAMMER,   EFFECT_NORMAL_HIT,        100, WATER,         PHYSICAL,  90, 10,   0
 	move EXPLOSION,    EFFECT_SELFDESTRUCT,      250, NORMAL,        PHYSICAL, 100,  5,   0
 	move FURY_SWIPES,  EFFECT_MULTI_HIT,          20, NORMAL,        PHYSICAL, 100, 15,   0 ; 20 BP
@@ -174,7 +174,7 @@ Moves:
 	move HYPER_FANG,   EFFECT_POISON_HIT,         55, POISON,        PHYSICAL, 100, 15, 100 ; *** Poison Fang
 	move SHARPEN,      EFFECT_ATTACK_UP,           0, NORMAL,        STATUS,   100, 30,   0 ; like Hone Claws?
 	move CONVERSION,   EFFECT_PRIORITY_HIT,       40, STEEL,         PHYSICAL, 100, 30,   0 ; Bullet Punch
-	move TRI_ATTACK,   EFFECT_TRI_ATTACK,         80, NORMAL,        SPECIAL,  100, 10,  20
+	move TRI_ATTACK,   EFFECT_TRI_ATTACK,         90, CURSE_TYPE,    SPECIAL,  100, 10,  30 ; ***
 	move SUPER_FANG,   EFFECT_SUPER_FANG,          1, NORMAL,        PHYSICAL,  90, 10,   0
 	move SLASH,        EFFECT_NORMAL_HIT,         70, NORMAL,        PHYSICAL, 100, 20,   0
 	move SUBSTITUTE,   EFFECT_SUBSTITUTE,          0, NORMAL,        STATUS,   100, 10,   0
@@ -212,7 +212,7 @@ Moves:
 	move ICY_WIND,     EFFECT_SPEED_DOWN_HIT,     55, ICE,           SPECIAL,   95, 15, 100
 	move DETECT,       EFFECT_NORMAL_HIT,         80, GHOST,         PHYSICAL, 100, 15,   0 ; *** Shadow Claw
 	move BONE_RUSH,    EFFECT_SP_DEF_DOWN_HIT,    90, GROUND,        SPECIAL,  100, 10,  10 ; Earth Power
-	move LOCK_ON,      EFFECT_NORMAL_HIT,         85, DRAGON,        PHYSICAL, 100, 15,   0 ; *** Dragon Claw
+	move LOCK_ON,      EFFECT_NORMAL_HIT,         90, DRAGON,        PHYSICAL, 100, 15,   0 ; *** Dragon Claw
 	move OUTRAGE,      EFFECT_RAMPAGE,           120, DRAGON,        PHYSICAL, 100, 15,   0
 	move SANDSTORM,    EFFECT_SANDSTORM,           0, ROCK,          STATUS,   100, 10,   0
 	move GIGA_DRAIN,   EFFECT_LEECH_HIT,          75, GRASS,         SPECIAL,  100, 10,   0
@@ -230,21 +230,21 @@ Moves:
 	move SLEEP_TALK,   EFFECT_SLEEP_TALK,          0, NORMAL,        STATUS,   100, 10,   0
 	move HEAL_BELL,    EFFECT_HEAL_BELL,           0, NORMAL,        STATUS,   100,  5,   0
 	move RETURN,       EFFECT_RETURN,              1, NORMAL,        PHYSICAL, 100, 20,   0
-	move PRESENT,      EFFECT_FLINCH_HIT,         80, DARK,          SPECIAL,  100, 15,  20 ; Dark Pulse
+	move PRESENT,      EFFECT_FLINCH_HIT,         90, DARK,          SPECIAL,  100, 15,  20 ; Dark Pulse (80? 90?)
 	move FRUSTRATION,  EFFECT_FLINCH_HIT,         40, GHOST,         PHYSICAL, 100, 15,  30 ; Astonish 
 	move SAFEGUARD,    EFFECT_TRI_ATTACK,         90, NORMAL,        PHYSICAL, 100, 10, 100 ; *** Now PRESENT
 	move PAIN_SPLIT,   EFFECT_PAIN_SPLIT,          0, NORMAL,        STATUS,   100, 20,   0
-	move SACRED_FIRE,  EFFECT_SACRED_FIRE,       100, FIRE,          PHYSICAL,  95,  5,  50
+	move SACRED_FIRE,  EFFECT_SACRED_FIRE,       100, FIRE,          PHYSICAL,  95,  5,  50 ;
 	move MAGNITUDE,    EFFECT_SPEED_DOWN_HIT,     60, GROUND,        PHYSICAL, 100, 20, 100 ; Bulldoze
 	move DYNAMICPUNCH, EFFECT_RECOIL_HIT,        120, GRASS,         PHYSICAL, 100, 15,   0 ; Wood Hammer
 	move MEGAHORN,     EFFECT_NORMAL_HIT,        120, BUG,           PHYSICAL,  85, 10,   0
-	move DRAGONBREATH, EFFECT_PARALYZE_HIT,       70, DRAGON,        SPECIAL,  100, 15,  30 ; ***
+	move DRAGONBREATH, EFFECT_PARALYZE_HIT,       75, DRAGON,        SPECIAL,  100, 15,  30 ; ***
 	move BATON_PASS,   EFFECT_BATON_PASS,          0, NORMAL,        STATUS,   100, 40,   0
 	move ENCORE,       EFFECT_ENCORE,              0, NORMAL,        STATUS,   100,  5,   0
 	move PURSUIT,      EFFECT_PURSUIT,            40, DARK,          PHYSICAL, 100, 20,   0
 	move RAPID_SPIN,   EFFECT_RAPID_SPIN,         50, NORMAL,        PHYSICAL, 100, 40, 100 ; ***
 	move SWEET_SCENT,  EFFECT_CONFUSE_HIT,        30, FAIRY,         SPECIAL,  100, 20, 100 ; Don't replace
-	move IRON_TAIL,    EFFECT_DEFENSE_DOWN_HIT,  100, STEEL,         PHYSICAL,  85, 10,  10 ; ***
+	move IRON_TAIL,    EFFECT_DEFENSE_DOWN_HIT,  100, STEEL,         PHYSICAL,  85, 10,  20 ; ***
 	move METAL_CLAW,   EFFECT_ATTACK_UP_HIT,      50, STEEL,         PHYSICAL,  95, 25,  30 ; ***
 	move VITAL_THROW,  EFFECT_BURN_HIT,           70, FIRE,          SPECIAL,  100, 10,  30 ; Blazing Sun
 	move MORNING_SUN,  EFFECT_HEAL,                0, NORMAL,        STATUS,   100,  5,   0

@@ -1,11 +1,11 @@
 	db MAGCARGO ; 219
 
-	db  70,  65, 140,  45,  100,  80 ; 500
+	db  65,  55, 90,  70,  105,  115 ; 500
 	;   hp  atk  def  spd  sat  sdf
 
-	db FIRE, ROCK ; type
+	db POISON, ELECTRIC ; type
 	db 75 ; catch rate
-	db 167 ; base exp
+	db 166 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

@@ -1,10 +1,10 @@
-	db "MANTIS@" ; species name
-	dw 411, 1230 ; height, weight
+	db "ABOMINABLE@" ; species name
+	dw 600, 2122 ; height, weight
 
-	db   "It's very proud of"
-	next "its speed. It"
-	next "moves so fast that"
+	db   "Fiesty by nature,"
+	next "it roams windy"
+	next "plains in search"
 
-	page "its opponent does"
-	next "not even know what"
-	next "knocked it down.@"
+	page "or worthy oppo-"
+	next "nents to pick up"
+	next "fights with.@"

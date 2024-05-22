@@ -1,10 +1,10 @@
-	db "COTTONWEED@" ; species name
-	dw 200, 20 ; height, weight
+	db "SPICY PEPPER@" ; species name
+	dw 211, 331 ; height, weight
 
-	db   "As soon as it"
-	next "rains, it closes"
-	next "its flower and"
+	db   "The red head con-"
+	next "verts spicy chemi-"
+	next "cals into fire and"
 
-	page "hides in the shade"
-	next "of a tree to avoid"
-	next "getting wet.@"
+	page "blasts the area"
+	next "with a spicy"
+	next "stream of flames.@"

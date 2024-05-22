@@ -2346,3 +2346,11 @@ SuckerPunch:
 	buildopponentrage
 	kingsrock
 	endmove	
+	
+Subfun:
+	checkobedience
+	usedmovetext
+	doturn
+	substitute
+	subfun
+	endmove	

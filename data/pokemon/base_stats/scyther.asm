@@ -1,6 +1,6 @@
 	db SCYTHER ; 123 Buu
 
-	db  105, 115,  75, 95,  45,  50 ; 485
+	db  105, 115,  85, 85,  35,  55 ; 480
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, DARK ; type

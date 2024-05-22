@@ -181,4 +181,5 @@ BattleCommandPointers:
 	dw BattleCommand_StartLoop
 	dw BattleCommand_Curl
 	dw BattleCommand_SuckerPunch
+	dw BattleCommand_Subfun
 	assert_table_length NUM_EFFECT_COMMANDS

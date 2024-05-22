@@ -1285,11 +1285,12 @@ BattleAnim_Surf:
 	anim_1gfx ANIM_GFX_BUBBLE
 	anim_bgeffect ANIM_BG_SURF, $0, $0, $0
 	anim_obj ANIM_OBJ_SURF, 88, 104, $8
-.loop
 	anim_sound 0, 1, SFX_SURF
+.loop
 	anim_wait 32
-	anim_loop 4, .loop
+	anim_loop 3, .loop
 	anim_incobj 1
+	anim_sound 0, 1, SFX_UNKNOWN_60
 	anim_wait 56
 	anim_ret
 
@@ -1820,17 +1821,10 @@ BattleAnim_Bite:
 	anim_ret
 
 BattleAnim_Teleport:
-	anim_1gfx ANIM_GFX_SPEED
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect ANIM_BG_TELEPORT, $0, BG_EFFECT_USER, $0
-	anim_wait 32
-	anim_bgeffect ANIM_BG_HIDE_MON, $0, BG_EFFECT_USER, $0
-	anim_wait 3
-	anim_incbgeffect ANIM_BG_TELEPORT
-	anim_call BattleAnim_ShowMon_0
-	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $1, $0
-	anim_call BattleAnimSub_WarpAway
-	anim_wait 64
+	anim_1gfx ANIM_GFX_HIT
+	anim_sound 0, 1, SFX_UNKNOWN_61 ; raspier pound
+	anim_obj ANIM_OBJ_HIT_YFIX, 136, 56, $0
+	anim_wait 16
 	anim_ret
 
 BattleAnim_Fly: ; 1 turn move
@@ -2647,15 +2641,25 @@ BattleAnim_Mist: ; Calm Mind
 	anim_ret
 
 BattleAnim_Smog:
-	anim_1gfx ANIM_GFX_HAZE
-    anim_bgeffect ANIM_BG_BLACK_HUES, $0, $15, $0
+;	anim_1gfx ANIM_GFX_HAZE
+;    anim_bgeffect ANIM_BG_BLACK_HUES, $0, $15, $0
+;.loop
+;	anim_sound 16, 2, SFX_POWDER
+;	anim_obj ANIM_OBJ_POISON_GAS, 44, 80, $3
+;	anim_wait 8
+;	anim_loop 10, .loop
+;	anim_wait 100
+;	anim_ret
+	anim_3gfx ANIM_GFX_HAZE, ANIM_GFX_EGG, ANIM_GFX_SMOKE
+	anim_bgeffect ANIM_BG_BLACK_HUES, $0, $5, $0
 .loop
 	anim_sound 16, 2, SFX_POWDER
-	anim_obj ANIM_OBJ_POISON_GAS, 44, 80, $3
+	anim_obj ANIM_OBJ_SMOKE, 132, 60, $20
 	anim_wait 8
-	anim_loop 10, .loop
-	anim_wait 100
+	anim_loop 5, .loop
+	anim_wait 80
 	anim_ret
+
 
 BattleAnim_PoisonGas:
 	anim_1gfx ANIM_GFX_HAZE
@@ -3033,7 +3037,7 @@ BattleAnim_Flash: ; ***
 	anim_ret
 
 BattleAnim_Substitute:
-	anim_sound 0, 0, SFX_SURF
+	anim_sound 0, 0, SFX_BALL_POOF
 	anim_if_param_equal $3, .dropsub2
 	anim_if_param_equal $2, .raisesub
 	anim_if_param_equal $1, .dropsub
@@ -3773,7 +3777,7 @@ BattleAnim_Sketch:
 	anim_wait 1
 	anim_ret
 
-BattleAnim_TripleKick: ; Shock Wave 
+BattleAnim_TripleKick: ; Shockwave 
 	anim_3gfx ANIM_GFX_PSYCHIC, ANIM_GFX_LIGHTNING, ANIM_GFX_EXPLOSION
 	anim_bgeffect ANIM_BG_NIGHT_SHADE, $0, BG_EFFECT_TARGET, $8
 .loop		
@@ -3788,9 +3792,8 @@ BattleAnim_TripleKick: ; Shock Wave
 	anim_wait 5
 	anim_loop 3, .loop
 	anim_incbgeffect ANIM_BG_NIGHT_SHADE
-	anim_sound 0, 1, SFX_THUNDER
-	anim_obj ANIM_OBJ_THUNDER3, 152, 68, $0
-	anim_wait 45
+	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $4, $4
+	anim_wait 30
 	anim_ret
 
 BattleAnim_Thief:
@@ -4193,7 +4196,7 @@ BattleAnim_FaintAttack:
 	anim_sound 0, 0, SFX_CURSE
 	anim_call BattleAnim_TargetObj_1Row
 	anim_bgeffect ANIM_BG_FADE_MON_TO_WHITE_WAIT_FADE_BACK, $0, BG_EFFECT_USER, $80
-	anim_wait 96
+	anim_wait 48
 	anim_sound 0, 1, SFX_COMET_PUNCH
 	anim_obj ANIM_OBJ_HIT, 120, 32, $0
 	anim_wait 8

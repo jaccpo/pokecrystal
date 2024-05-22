@@ -167,4 +167,5 @@ MoveEffectsPointers:
 	dw Gulpup
 	dw Hurricane
 	dw SuckerPunch
+	dw Subfun
 	assert_table_length NUM_MOVE_EFFECTS

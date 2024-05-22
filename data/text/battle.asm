@@ -974,6 +974,12 @@ PutACurseText:
 	autopara "put a CURSE on"
 	line "<TARGET>!"
 	prompt
+	
+PutACurse2Text:
+	text "<USER>"
+	line "put a CURSE on"
+	scroll "<TARGET>!"
+	prompt	
 
 ProtectedItselfText:
 	text "<USER>"

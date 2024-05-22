@@ -49,8 +49,8 @@ EvolutionMoves:: ; Actual dex number +2
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
-	db NO_MOVE
-	db NO_MOVE
+	db NO_MOVE ; Wiglett
+	db NO_MOVE ; Wugtrio
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
@@ -74,8 +74,8 @@ EvolutionMoves:: ; Actual dex number +2
 	db NO_MOVE
 	db SPITE ; Gulp Up - Lickitung evo - was Tentacruel
 	db NO_MOVE
-	db RAZOR_LEAF ; Cherrim Normal
-	db ANCIENTPOWER ; Cherrim Rock
+	db RAZOR_LEAF ; Cherrim
+	db ANCIENTPOWER ; Petrothorn
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
@@ -88,7 +88,7 @@ EvolutionMoves:: ; Actual dex number +2
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
-	db SPITE ; Muk - Gulp Up
+	db SPITE ; Swalot - Gulp Up
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
@@ -100,7 +100,7 @@ EvolutionMoves:: ; Actual dex number +2
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE ; Voltorb
-	db NO_MOVE ; Electrode
+	db AURORA_BEAM ; Electrode
 	db NO_MOVE
 	db SAND_ATTACK ; Hyper Voice - Chimecho
 	db NO_MOVE ; Beta hidind stuff
@@ -129,7 +129,7 @@ EvolutionMoves:: ; Actual dex number +2
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
-	db BONE_CLUB ; (Mud Shot - Gyarados)
+	db BONE_CLUB ; (Mud Shot - Whiscash)
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
@@ -186,6 +186,8 @@ EvolutionMoves:: ; Actual dex number +2
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
+	db NO_MOVE ; CAPSAKID
+	db FLAME_WHEEL ; (Maybe Fire Fang later?) - SCOVILLAIN
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
@@ -215,10 +217,8 @@ EvolutionMoves:: ; Actual dex number +2
 	db NO_MOVE
 	db NO_MOVE
 	db NO_MOVE
-	db NO_MOVE
-	db NO_MOVE
-	db NO_MOVE
-	db NO_MOVE
+	db NO_MOVE ; Slugma
+	db TRIPLE_KICK ; Shockwave - Magcargo
 	db NO_MOVE
 	db ANCIENTPOWER ; Aurorus
 	db NO_MOVE

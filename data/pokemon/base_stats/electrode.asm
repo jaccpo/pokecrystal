@@ -1,11 +1,11 @@
 	db ELECTRODE ; 101 Hisuian
 
-	db  60,  60,  70, 150,  85,  80 ; +10 atk, +5 sp. atk
+	db  60,  60,  70, 150,  85,  80 ; 495 BST - +5 sp. atk, +10 Atk
 	;   hp  atk  def  spd  sat  sdf
 
-	db ELECTRIC, GRASS ; type
+	db ELECTRIC, ICE ; type
 	db 60 ; catch rate
-	db 159 ; base exp
+	db 164 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1

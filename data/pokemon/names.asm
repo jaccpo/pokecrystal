@@ -49,8 +49,8 @@ PokemonNames::
 	db "PARASECT@@"
 	db "VENONAT@@@"
 	db "VENOMOTH@@"
-	db "DIGLETT@@@"
-	db "DUGTRIO@@@"
+	db "WIGLETT@@@" ; did
+	db "WUGTRIO@@@" ; dug
 	db "MEOWTH@@@@"
 	db "PERSIAN@@@"
 	db "PSYDUCK@@@"
@@ -105,7 +105,7 @@ PokemonNames::
 	db "CHIMECHO@@" ; was Exeggutor
 	db "BETAHIDE@@" ; was Cubone
 	db "BETAHIDE2@" ; was Marowak
-	db "HITMONLEE@"
+	db "FLAMIGO@@@" ; was HITMONLEE
 	db "HITMONCHAN"
 	db "LICKITUNG@"
 	db "KOFFING@@@"
@@ -122,7 +122,7 @@ PokemonNames::
 	db "STARYU@@@@"
 	db "STARMIE@@@"
 	db "MIGAWARI@@" ; was Mr Mime
-	db "SCYTHER@@@"
+	db "BUU@@@@@@@" ; was Scyther
 	db "JYNX@@@@@@"
 	db "STUNFISK@@" ; was Electabuzz
 	db "HEATMOR@@@" ; was Magmar
@@ -186,14 +186,14 @@ PokemonNames::
 	db "DRAGALGE@@" ; was Azu
 	db "SUDOWOODO@"
 	db "POLITOED@@"
-	db "HOPPIP@@@@"
-	db "SKIPLOOM@@"
+	db "CAPSAKID@@" ; was HOPPIP
+	db "SCOVILLAIN" ; was SKIPLOOM
 	db "JUMPLUFF@@"
 	db "AIPOM@@@@@"
 	db "SUNKERN@@@"
 	db "SUNFLORA@@"
 	db "YANMA@@@@@"
-	db "WOOPER@@@@"
+	db "WOOPER@@@@" ; Paldean
 	db "CLODSIRE@@" ; was Quag
 	db "ESPEON@@@@"
 	db "UMBREON@@@"
@@ -258,4 +258,4 @@ PokemonNames::
 	db "?????@@@@@"
 	db "?????@@@@@"
 	db "?????@@@@@"
-	assert_table_length $100
+	assert_table_length $100 ; 69 so far (noice)

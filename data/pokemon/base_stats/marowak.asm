@@ -1,4 +1,4 @@
-	db MAROWAK ; 105
+	db MAROWAK ; 105 BETA HIDE EVO
 
 	db  119,  81, 88,  91,  55,  55 ; 490
 	;   hp  atk  def  spd  sat  sdf
@@ -6,7 +6,7 @@
 	db NORMAL, DARK ; type
 	db 75 ; catch rate
 	db 158 ; base exp
-	db NO_ITEM, THICK_CLUB ; items
+	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch

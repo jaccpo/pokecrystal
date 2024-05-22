@@ -1,10 +1,10 @@
-	db "KICKING@" ; species name
+	db "SYNCHRONISE@" ; species name - Flamigo
 	dw 411, 1100 ; height, weight
 
-	db   "It is also called"
-	next "the Kick Master."
-	next "It uses its"
+	db   "It ties the base"
+	next "of its neck into a"
+	next "knot so the energy"
 
-	page "elastic legs to"
-	next "execute every"
-	next "known kick.@"
+	page "stored in its bel-"
+	next "ly doesn't escape"
+	next "from its beak.@"

@@ -35,7 +35,7 @@ MonMenuIcons:
 	db ICON_MONSTER     ; NIDOQUEEN
 	db ICON_FOX         ; NIDORAN_M
 	db ICON_FOX         ; NIDORINO
-	db ICON_FOX         ; NIDOREIGN
+	db ICON_MONSTER     ; NIDOREIGN
 	db ICON_CLEFAIRY    ; CLEFAIRY
 	db ICON_CLEFAIRY    ; CLEFABLE
 	db ICON_FOX         ; VULPIX
@@ -107,7 +107,7 @@ MonMenuIcons:
 	db ICON_VOLTORB     ; Chimecho - was EXEGGUTOR
 	db ICON_MONSTER     ; CUBONE (BETA HIDE)
 	db ICON_MONSTER     ; MAROWAK
-	db ICON_FIGHTER     ; HITMONLEE
+	db ICON_BIRD        ; FLAMIGO - was HITMONLEE
 	db ICON_FIGHTER     ; HITMONCHAN
 	db ICON_MONSTER     ; LICKITUNG
 	db ICON_BLOB        ; KOFFING
@@ -124,7 +124,7 @@ MonMenuIcons:
 	db ICON_STARYU      ; STARYU
 	db ICON_STARYU      ; STARMIE
 	db ICON_MONSTER     ; Migawari - was MR. MIME
-	db ICON_BUG         ; SCYTHER
+	db ICON_MONSTER     ; SCYTHER
 	db ICON_HUMANSHAPE  ; JYNX
 	db ICON_FISH        ; STUNFISK
 	db ICON_HUMANSHAPE  ; HEATMOR
@@ -188,8 +188,8 @@ MonMenuIcons:
 	db ICON_FISH        ; Dragalge, was AZUMARILL
 	db ICON_SUDOWOODO   ; SUDOWOODO
 	db ICON_POLIWAG     ; POLITOED
-	db ICON_ODDISH      ; HOPPIP
-	db ICON_ODDISH      ; SKIPLOOM
+	db ICON_ODDISH      ; Capsakid, was HOPPIP
+	db ICON_ODDISH      ; Scovillain, was SKIPLOOM
 	db ICON_ODDISH      ; JUMPLUFF
 	db ICON_MONSTER     ; AIPOM
 	db ICON_ODDISH      ; SUNKERN

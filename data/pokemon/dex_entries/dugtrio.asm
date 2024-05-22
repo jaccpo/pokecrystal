@@ -1,10 +1,10 @@
-	db "MOLE@" ; species name
+	db "GARDEN EEL@" ; Wugtrio - species name
 	dw 204, 730 ; height, weight
 
-	db   "These DIGLETT"
-	next "triplets dig over"
-	next "60 miles below sea"
+	db   "It may not look"
+	next "like it, but it"
+	next "is vicious. It"
 
-	page "level. No one"
-	next "knows what it's"
-	next "like underground.@"
+	page "wraps around preys"
+	next "to drag them under-"
+	next "ground.@"

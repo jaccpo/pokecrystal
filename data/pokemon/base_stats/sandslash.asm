@@ -1,11 +1,11 @@
-	db SANDSLASH ; 028
+	db SANDSLASH ; 028 Bastiodon
 
-	db  85, 100, 110,  75,  45,  70 ; 485
+	db  70, 47, 158,  45,  67,  128 ; 515
 	;   hp  atk  def  spd  sat  sdf
 
-	db GROUND, GROUND ; type
-	db 90 ; catch rate
-	db 170 ; base exp
+	db DRAGON, STEEL ; type
+	db 45 ; catch rate
+	db 190 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

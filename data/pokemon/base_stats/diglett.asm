@@ -1,9 +1,9 @@
-	db DIGLETT ; 050
+	db DIGLETT ; 050 Wiglett
 
-	db  10,  55,  25,  95,  35,  45
+	db  20,  55,  30,  95,  35,  45 
 	;   hp  atk  def  spd  sat  sdf
 
-	db GROUND, GROUND ; type
+	db WATER, WATER ; type
 	db 255 ; catch rate
 	db 81 ; base exp
 	db NO_ITEM, NO_ITEM ; items
